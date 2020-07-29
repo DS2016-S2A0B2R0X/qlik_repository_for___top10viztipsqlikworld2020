@@ -1,0 +1,375 @@
+[
+  {
+    "qInfo": {
+      "qId": "03b1cc35-62f1-4aa5-b9e4-ee7ea1e190f7",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vList",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "0",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "27faf014-da05-4d26-8a32-7234063bb1a3",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vUBase",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "https://cdn.jsdelivr.net/gh/YR/weather-symbols@6.0.2/dist/svg/"
+  },
+  {
+    "qInfo": {
+      "qId": "2c48dde5-41de-4e89-87ba-a81c125ab8bd",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vPartySeats",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "5"
+  },
+  {
+    "qInfo": {
+      "qId": "2ca2f034-a2a9-43c4-b23c-7ccfd9106042",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vScaleNumber",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "if($1>1000000, num($1/1000000,'#,##0.0 M'),if($1>1000, num($1/1000,'#,##0.0 K'),num($1,'#,##0')))",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "2e4a4693-88e8-4b37-9cb9-8336dc70c3d1",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vQCount",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "4"
+  },
+  {
+    "qInfo": {
+      "qId": "2ed00a5f-f84e-4fbe-b8c4-8c4ef61f12d5",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vComboProd",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "1",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "3312745a-4df6-4460-9d6f-0ce31a966efd",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vHeader",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "\"Tabs\"\tLeading Single quote\tSecond Single quote\t\"Multiline\"\tRegular"
+  },
+  {
+    "qInfo": {
+      "qId": "499b33ac-dfdc-4d83-8a2d-427cf503a5d9",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "j",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "214"
+  },
+  {
+    "qInfo": {
+      "qId": "7117cd4c-2eb1-4185-a4ce-1592dc42201f",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vQMod",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "0"
+  },
+  {
+    "qInfo": {
+      "qId": "7d739340-1b7b-482d-83e3-a63da05f47a8",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vButton",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "Sales",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "7d9443da-14ac-4201-92d5-69ef25f06671",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vBgB",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "$1-1"
+  },
+  {
+    "qInfo": {
+      "qId": "80819a57-4f6e-4031-a049-4dd38303e123",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "lenLine",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "213"
+  },
+  {
+    "qInfo": {
+      "qId": "860e7fb6-e9a7-4e11-818f-b9f68c7f7db4",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vLine",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "\"Next\trow\ttabs\"\t'Leading quote 2\t'Second quote 2\t\"Used to specify modern style quoting, \nallowing multi-line content in fields. \nFields containing end-of-line characters must be enclosed within double quotes\"\t6789"
+  },
+  {
+    "qInfo": {
+      "qId": "92cf8136-ab7b-4a1a-adad-f568634a6b97",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vCurrency",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "9c2c43fa-2b92-46fb-a86e-9ce5b2858546",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vRadio",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "1",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "a0cae2b7-5abb-429d-aea5-f527b0442f19",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vRepresentatives",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "1"
+  },
+  {
+    "qInfo": {
+      "qId": "a3a0ef5a-1a51-4561-b8f0-5470ddd04c9a",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "NumRows",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "2"
+  },
+  {
+    "qInfo": {
+      "qId": "a8f1a91b-ff81-412a-b647-a4fc6b12987f",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vFreeze",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "0",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "b07ddeec-be3d-4c49-972d-b5cb70a18047",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vUEnd",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": ".svg"
+  },
+  {
+    "qInfo": {
+      "qId": "c08a3f61-82f1-4eba-877e-de95ced307d2",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vMaxSetScale",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=rangemax(Sum ({Cust1} Qty),Sum ({Cust2} Qty), Sum ({Cust3} Qty))/100",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "c596eaa5-66c7-4baf-941e-3ec522ff1351",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vSteps",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "1"
+  },
+  {
+    "qInfo": {
+      "qId": "ca7e65d6-96c7-492d-94f5-be621c0aecfb",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vCheck",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "1",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "cfdd00be-3b99-4ea8-a4e8-ad6fa3e23b66",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vChar",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "9"
+  },
+  {
+    "qInfo": {
+      "qId": "d600ebc1-48c2-4aca-8323-f8f467ff3cec",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vSwitch",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "e1d4d515-1c1f-4f2a-a889-ec0af315613f",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "newRow",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "\"Next\trow\ttabs\"\t\"'Leading quote 2\"\t\"'Second quote 2\"\t\"Used to specify modern style quoting, \nallowing multi-line content in fields. \nFields containing end-of-line characters must be enclosed within double quotes\"\t\"6789\""
+  },
+  {
+    "qInfo": {
+      "qId": "fc859c71-195c-4677-a395-18e2941c516b",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vBar1",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "1",
+    "tags": []
+  }
+]

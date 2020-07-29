@@ -1,0 +1,812 @@
+[
+  {
+    "qInfo": {
+      "qId": "742fc433-d751-45ce-b22c-f59b8fdd65f3",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Minor",
+      "qDef": "40000",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#FF9933",
+          "index": -1
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Minor",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "755b543d-0a95-4520-a069-7b1104407f03",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Major",
+      "qDef": "20000",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#FF6600",
+          "index": -1
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Major",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "7a81758b-a665-4411-bdd2-83577deeed7a",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Medium",
+      "qDef": "30000",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#FF9933",
+          "index": -1
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Medium",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "BCyXj",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "DimDepSales%",
+      "qDef": "pick(Dimensionality()+1,\r\n\tSum([Sales])/Sum(total [Sales]),\n\tSum([Sales])/Sum(total [Sales]),\n\tSum([Sales])/Sum(total <$(=GetObjectField(0))> [Sales]),\n\tSum([Sales])/Sum(total <$(=GetObjectField(0)) $(=','&GetObjectField(1))> [Sales])\n)\n",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "DimDepSales%",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DVBdK",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "RangeChart_Offset",
+      "qDef": "avg(Sales)-StDev(Sales)/10",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#ffffff",
+          "index": 1
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "RangeChart_Offset",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "EcVaDRj",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "SalesR",
+      "qDef": "if(ValueList('Sales','Rest')='Sales',sum(Sales)/1000,sum(total Sales)/1000-sum(Sales)/1000)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "SalesR",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "Esjb",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Rev",
+      "qDef": "sum(Sales)/1000",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#b6d7ea",
+          "index": 4
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Rev",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "FgQ",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "#New",
+      "qDef": "max(NewCases)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#f93f17",
+          "index": 10
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "#New",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "JFPT",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Top band",
+      "qDef": "if(Sum(Sales)>20000,75000-sum(Sales),\nif(sum(Sales)<20000,55000))",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#46c646",
+          "index": 2
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Top band",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "JaaajK",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "2011",
+      "qDef": "round(sum({<Year={'2011'}>} Sales)/1000)\r\n",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#f8981d",
+          "index": 9
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "2011",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "JuHb",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "rand",
+      "qDef": "rand()",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "rand",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "KPWVA",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "#Active",
+      "qDef": "max(Active)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#ffcf02",
+          "index": 8
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "#Active",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "LvHdPc",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "RangeChart_Lower",
+      "qDef": "StDev(Sales)/10",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#c2e6fa",
+          "index": -1
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "RangeChart_Lower",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "NBYjvPt",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Selected_brush",
+      "qDef": "sum(Sales)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#276e27",
+          "index": 3
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Selected_brush",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "PTmNX",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Excl Acc%",
+      "qDef": "Min(Aggr(\r\n    Rangesum(Above(Sum({$<CategoryName=>} Sales)/Sum({$<CategoryName=>} total Sales),1,RowNo())), \n    (CategoryName,(=Sum({$<CategoryName=>} Sales),Desc))\n  ))",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Excl Acc%",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "PjQeLP",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "2010",
+      "qDef": "round(sum({<Year={'2010'}>} Sales)/1000)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#000000",
+          "index": 15
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "2010",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "Tmbrey",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Quarterly month average",
+      "qDef": "pick(match([Quarter],'Q1','Q2','Q3','Q4'),\r\navg(total aggr({<Quarter={'Q1'}>} sum(Sales)/1000, Month)),\navg(total aggr({<Quarter={'Q2'}>} sum(Sales)/1000, Month)),\navg(total aggr({<Quarter={'Q3'}>} sum(Sales)/1000, Month)),\navg(total aggr({<Quarter={'Q4'}>} sum(Sales)/1000, Month))\n)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#b6d7ea",
+          "index": 4
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Quarterly month average",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "UYYAdt",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Critical",
+      "qDef": "10000",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#ff0000",
+          "index": -1
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Critical",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "WcdMbJP",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "COS",
+      "qDef": "sum(COS)/10000\n",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#4477aa",
+          "index": 6
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "COS",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "ZZsapr",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "#Deaths",
+      "qDef": "max(Deaths)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#000000",
+          "index": 15
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "#Deaths",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "aANhmT",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "#Recovered",
+      "qDef": "max(Recovered)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#46c646",
+          "index": 2
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "#Recovered",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "adWhza",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Sales",
+      "qDef": "num(sum(Sales),'$#,##0;-$#,##0')",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Sales",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "bhvfXpG",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Unselected_brush",
+      "qDef": "sum({1} Sales)-sum(Sales)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#b0afae",
+          "index": 12
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Unselected_brush",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "cdARJW",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Actual",
+      "qDef": "Sum(Sales)\n",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#000000",
+          "index": 15
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Actual",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "dxypfh",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Perf",
+      "qDef": "avg(perf)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "gradient": {
+          "colors": [
+            {
+              "color": "#f93f17",
+              "index": 10
+            },
+            {
+              "color": "#f8981d",
+              "index": 9
+            },
+            {
+              "color": "#46c646",
+              "index": 2
+            },
+            {
+              "color": "#276e27",
+              "index": 3
+            }
+          ],
+          "breakTypes": [
+            false,
+            false,
+            false
+          ],
+          "limits": [
+            -0.05,
+            0,
+            0.05
+          ],
+          "limitType": "absolute"
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Perf",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "eAPDpjW",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "RangeChart_Bottom",
+      "qDef": "0",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#c2e6fa",
+          "index": -1
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "RangeChart_Bottom",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "fc2ceefa-51e1-4639-8669-a62be89d6016",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Within",
+      "qDef": "60000",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#00B050",
+          "index": -1
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Within",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "fc7072c7-4baf-445a-8d3e-f48890e20b13",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "SalesK",
+      "qDef": "round(sum(Sales)/1000)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "SalesK",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "mddp",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "RangeChart_Base",
+      "qDef": "0",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#3a6692",
+          "index": -1
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "RangeChart_Base",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "pjeGgch",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "cFreight",
+      "qDef": "sum(Freight)*10",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#46c646",
+          "index": 2
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "cFreight",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "ptGPqPp",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Incl Ack %",
+      "qDef": "Max(Aggr(\r\n    Rangesum(Above(Sum({1} Sales)/Sum({1} total Sales),0,RowNo())), \n    (CategoryName,(=Sum({1} Sales),Desc))\n  ))",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "gradient": {
+          "colors": [
+            {
+              "color": "#FF0000",
+              "index": -1
+            },
+            {
+              "color": "#FFC800",
+              "index": -1
+            },
+            {
+              "color": "#8CAAC8",
+              "index": -1
+            }
+          ],
+          "breakTypes": [
+            false,
+            false
+          ],
+          "limits": [
+            0.2,
+            0.8
+          ],
+          "limitType": "percent"
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Incl Ack %",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "qvJJMte",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "cCOS",
+      "qDef": "sum(COS)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#8e477d",
+          "index": 7
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "cCOS",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "rtpteP",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "RangeChart_Upper",
+      "qDef": "StDev(Sales)/10",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#c2e6fa",
+          "index": -1
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "RangeChart_Upper",
+      "description": "",
+      "tags": []
+    }
+  }
+]

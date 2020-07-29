@@ -1,0 +1,247 @@
+[
+  {
+    "qInfo": {
+      "qId": "BmJMnw",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "apple_product"
+      ],
+      "qFieldLabels": [
+        "Product"
+      ],
+      "title": "Product",
+      "coloring": {
+        "changeHash": "0.5935536983888596",
+        "colorMapRef": "BmJMnw"
+      }
+    },
+    "qMetaDef": {
+      "title": "Product",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "KZhrtmN",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "H",
+      "qFieldDefs": [
+        "CategoryName",
+        "ProductName"
+      ],
+      "qFieldLabels": [],
+      "title": "ProdTree",
+      "coloring": {
+        "changeHash": "0.7066880173265264"
+      }
+    },
+    "qMetaDef": {
+      "title": "ProdTree",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "SGNnYZ",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "OrderDate.autoCalendar.Year"
+      ],
+      "qFieldLabels": [
+        "Year"
+      ],
+      "title": "Year",
+      "coloring": {
+        "changeHash": "0.8350679544717261"
+      }
+    },
+    "qMetaDef": {
+      "title": "Year",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "WrdwdGm",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "CategoryName"
+      ],
+      "qFieldLabels": [
+        "CategoryRank"
+      ],
+      "title": "CategoryRank",
+      "coloring": {
+        "changeHash": "0.3980187475681305"
+      }
+    },
+    "qMetaDef": {
+      "title": "CategoryRank",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "ZTpHA",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "H",
+      "qFieldDefs": [
+        "CategoryName",
+        "ProductName",
+        "Country",
+        "City"
+      ],
+      "qFieldLabels": [],
+      "title": "ProdDrill",
+      "coloring": {
+        "changeHash": "0.9293003398925066",
+        "colorMapRef": "ZTpHA"
+      }
+    },
+    "qMetaDef": {
+      "title": "ProdDrill",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "beefvka",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "=valuelist('Sales','Rest')"
+      ],
+      "qFieldLabels": [
+        "Share"
+      ],
+      "title": "Share",
+      "coloring": {
+        "changeHash": "0.4145367781165987",
+        "colorMapRef": "beefvka"
+      }
+    },
+    "qMetaDef": {
+      "title": "Share",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "hdVBuq",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "ProductName"
+      ],
+      "qFieldLabels": [
+        "Product"
+      ],
+      "title": "Product",
+      "coloring": {
+        "changeHash": "0.5610281042459071"
+      }
+    },
+    "qMetaDef": {
+      "title": "Product",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "jpFfu",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "=Aggr(\r\n    If(Rangesum(Above(Sum({$<CategoryName=>} Sales)/Sum({$<CategoryName=>} total Sales),1,RowNo()))<0.8, 'A',\n        If(Rangesum(Above(Sum({$<CategoryName=>} Sales)/Sum({$<CategoryName=>} total Sales),1,RowNo()))<0.9, 'B',\n            'C')),\n    (CategoryName,(=Sum({$<CategoryName=>} Sales),Desc))\n    )"
+      ],
+      "qFieldLabels": [
+        "Pareto class"
+      ],
+      "title": "Pareto class",
+      "coloring": {
+        "changeHash": "0.9643759976606816",
+        "colorMapRef": "jpFfu"
+      }
+    },
+    "qMetaDef": {
+      "title": "Pareto class",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "jxyBNj",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "=\r\naggr({<Customer=>}\npick(\nmatch(\n(sum({<Year={'2012'}>} Sales) > avg(total aggr({<Customer=>} sum({<Year={'2012'}>} Sales),Customer)))\n& 'a' &\n((sum({<Year={'2012'}>} Sales) - sum({<Year={'2011'}>} Sales)) > avg(total aggr({<Customer=>} sum({<Year={'2012'}>} Sales)-sum({<Year={'2011'}>} Sales),Customer)))\n,'0a0','-1a0','0a-1','-1a-1'),\n'Bottoms','Criticals','Challengers','Leaders')\n, Customer)"
+      ],
+      "qFieldLabels": [
+        "CustomerType"
+      ],
+      "title": "CustomerType",
+      "coloring": {
+        "changeHash": "0.13166068424470723"
+      }
+    },
+    "qMetaDef": {
+      "title": "CustomerType",
+      "description": "Customer type classification, independent of customer selection.",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "mfkPpTm",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "CategoryName"
+      ],
+      "qFieldLabels": [
+        "Category"
+      ],
+      "title": "Category",
+      "coloring": {
+        "changeHash": "0.6137247064616531",
+        "colorMapRef": "mfkPpTm"
+      }
+    },
+    "qMetaDef": {
+      "title": "Category",
+      "description": "",
+      "tags": []
+    }
+  }
+]

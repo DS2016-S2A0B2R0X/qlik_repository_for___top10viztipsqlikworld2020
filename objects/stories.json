@@ -1,0 +1,3392 @@
+[
+  {
+    "qProperty": {
+      "qInfo": {
+        "qId": "0a5ecc45-a910-47ab-afd3-ab9554c2816d",
+        "qType": "story"
+      },
+      "qMetaDef": {
+        "title": "My new story",
+        "description": ""
+      },
+      "thumbnail": {
+        "qStaticContentUrlDef": {}
+      },
+      "qChildListDef": {
+        "qData": {
+          "title": "/title",
+          "rank": "/rank"
+        }
+      }
+    },
+    "qChildren": [
+      {
+        "qProperty": {
+          "qInfo": {
+            "qId": "TSkKMPy",
+            "qType": "slide"
+          },
+          "qMetaDef": {},
+          "rank": 1,
+          "qChildListDef": {
+            "qData": {
+              "title": "/title",
+              "sheetId": "/sheetId",
+              "ratio": "/ratio",
+              "position": "/position",
+              "dataPath": "/dataPath",
+              "srcPath": "/srcPath",
+              "visualization": "/visualization",
+              "visualizationType": "/visualizationType",
+              "style": "/style"
+            }
+          }
+        },
+        "qChildren": [
+          {
+            "qProperty": {
+              "qInfo": {
+                "qId": "QJwjAhU",
+                "qType": "slideitem"
+              },
+              "qMetaDef": {},
+              "qEmbeddedSnapshotDef": {},
+              "title": "",
+              "sheetId": "",
+              "ratio": true,
+              "position": {
+                "top": "3.70%",
+                "left": "39.58%",
+                "width": "56.25%",
+                "height": "92.59%",
+                "z-index": 4
+              },
+              "visualization": "snapshot",
+              "visualizationType": "map",
+              "style": {
+                "id": "0e10f694-f3f3-4b1d-a40b-14475e757bf6"
+              }
+            },
+            "qChildren": [],
+            "qEmbeddedSnapshotRef": {
+              "qProperties": {
+                "qInfo": {
+                  "qId": "f5b28435-7db1-425a-a641-a11ce25c6b37",
+                  "qType": "embeddedsnapshot"
+                },
+                "qMetaDef": {
+                  "title": "",
+                  "description": "",
+                  "annotation": ""
+                },
+                "creationDate": "2020-01-14T12:32:52.588Z",
+                "qMeta": {
+                  "privileges": [
+                    "read",
+                    "update",
+                    "delete",
+                    "exportdata"
+                  ]
+                },
+                "qSelectionInfo": {},
+                "gaLayers": [
+                  {
+                    "type": "PointLayer",
+                    "locationOrLatitude": {
+                      "label": "Year",
+                      "key": "-8.5",
+                      "type": "expression"
+                    },
+                    "locationDefault": "[Year]",
+                    "locationNamesAuto": true,
+                    "locationType": "",
+                    "locationCountry": {
+                      "key": "",
+                      "label": "",
+                      "type": ""
+                    },
+                    "locationAdmin1": {
+                      "key": "",
+                      "label": "",
+                      "type": ""
+                    },
+                    "locationAdmin2": {
+                      "key": "",
+                      "label": "",
+                      "type": ""
+                    },
+                    "maxObjects": 4000,
+                    "showLayer": true,
+                    "hideCalcCond": false,
+                    "exclFromAutozoom": false,
+                    "color": {
+                      "outline": {
+                        "index": -1,
+                        "color": "#7b7a78"
+                      },
+                      "outlineOpacity": 0,
+                      "opacity": 0,
+                      "auto": false,
+                      "mode": "primary",
+                      "paletteColor": {
+                        "index": 9,
+                        "color": "#ffffff"
+                      },
+                      "measureScheme": "sg",
+                      "dimensionScheme": "12",
+                      "colorExpression": "",
+                      "expressionIsColor": true,
+                      "measureMin": 0,
+                      "measureMax": 10,
+                      "useDimColVal": false,
+                      "useMeasureGradient": false
+                    },
+                    "displayLegend": "auto",
+                    "showSizeLegend": true,
+                    "showToolTip": true,
+                    "showInAllLevels": true,
+                    "zoomRange": [
+                      0,
+                      20
+                    ],
+                    "showPopUp": true,
+                    "displayUnselected": false,
+                    "label": {
+                      "show": true,
+                      "expression": {
+                        "key": "[Year]",
+                        "label": "dimension.qDef.qFieldDefs[0]",
+                        "type": "expression"
+                      },
+                      "position": "TOP",
+                      "showInAllLevels": true,
+                      "visibleRange": [
+                        0,
+                        20
+                      ]
+                    },
+                    "drillDown": {
+                      "auto": true,
+                      "showLevel0": true,
+                      "showLevel1": true,
+                      "showLevel2": true,
+                      "showLevel3": true,
+                      "showLevel4": true,
+                      "showLevel5": true,
+                      "showLevel6": true,
+                      "showLevel7": true
+                    },
+                    "qHyperCube": {
+                      "qSize": {
+                        "qcx": 1,
+                        "qcy": 4
+                      },
+                      "qDimensionInfo": [
+                        {
+                          "qFallbackTitle": "YearLabel",
+                          "qApprMaxGlyphCount": 4,
+                          "qCardinal": 4,
+                          "qSortIndicator": "A",
+                          "qGroupFallbackTitles": [
+                            "YearLabel"
+                          ],
+                          "qGroupPos": 0,
+                          "qStateCounts": {
+                            "qLocked": 0,
+                            "qSelected": 0,
+                            "qOption": 4,
+                            "qDeselected": 0,
+                            "qAlternative": 0,
+                            "qExcluded": 0,
+                            "qSelectedExcluded": 0,
+                            "qLockedExcluded": 0
+                          },
+                          "qTags": [
+                            "$numeric",
+                            "$integer"
+                          ],
+                          "qDimensionType": "N",
+                          "qGrouping": "N",
+                          "qNumFormat": {
+                            "qType": "U",
+                            "qnDec": 0,
+                            "qUseThou": 0
+                          },
+                          "qIsAutoFormat": true,
+                          "qGroupFieldDefs": [
+                            "Year"
+                          ],
+                          "qMin": 2009,
+                          "qMax": 2012,
+                          "qContinuousAxes": true,
+                          "qAttrExprInfo": [],
+                          "qAttrDimInfo": [],
+                          "qCardinalities": {
+                            "qCardinal": 4,
+                            "qHypercubeCardinal": 0,
+                            "qAllValuesCardinal": -1
+                          },
+                          "autoSort": true,
+                          "cId": "LLUbjMY"
+                        }
+                      ],
+                      "qMeasureInfo": [],
+                      "qEffectiveInterColumnSortOrder": [
+                        0
+                      ],
+                      "qGrandTotalRow": [],
+                      "qDataPages": [
+                        {
+                          "qMatrix": [],
+                          "qTails": [],
+                          "qArea": {
+                            "qLeft": 0,
+                            "qTop": 0,
+                            "qWidth": 1,
+                            "qHeight": 0
+                          }
+                        }
+                      ],
+                      "qPivotDataPages": [],
+                      "qStackedDataPages": [],
+                      "qMode": "S",
+                      "qNoOfLeftDims": -1,
+                      "qTreeNodesOnDim": [],
+                      "qColumnOrder": []
+                    },
+                    "size": {
+                      "radiusMin": 0,
+                      "radiusMax": 2,
+                      "radiusValueMin": 0,
+                      "radiusValueMax": 1,
+                      "autoRadiusValueRange": true,
+                      "expression": {
+                        "key": "",
+                        "label": "",
+                        "type": ""
+                      },
+                      "label": "",
+                      "slider": [
+                        8,
+                        24
+                      ],
+                      "sliderSingle": 1,
+                      "shape": "points"
+                    },
+                    "cId": "wyypqDV",
+                    "id": "wyypqDV",
+                    "isLatLong": true,
+                    "longitude": {
+                      "label": "YearOffset",
+                      "key": "YearOffset",
+                      "type": "expression"
+                    }
+                  },
+                  {
+                    "type": "PointLayer",
+                    "locationOrLatitude": {
+                      "label": "CategoryName",
+                      "key": "=-rank(sum({<Year={'2009'}>} Sales))",
+                      "type": "expression"
+                    },
+                    "locationDefault": "[CategoryName]",
+                    "locationNamesAuto": true,
+                    "locationType": "",
+                    "locationCountry": {
+                      "key": "",
+                      "label": "",
+                      "type": ""
+                    },
+                    "locationAdmin1": {
+                      "key": "",
+                      "label": "",
+                      "type": ""
+                    },
+                    "locationAdmin2": {
+                      "key": "",
+                      "label": "",
+                      "type": ""
+                    },
+                    "maxObjects": 4000,
+                    "showLayer": true,
+                    "hideCalcCond": false,
+                    "exclFromAutozoom": false,
+                    "color": {
+                      "outline": {
+                        "index": -1,
+                        "color": "#7b7a78"
+                      },
+                      "outlineOpacity": 0.05,
+                      "opacity": 0,
+                      "auto": false,
+                      "mode": "primary",
+                      "paletteColor": {
+                        "index": 6,
+                        "color": "#ffffff"
+                      },
+                      "measureScheme": "sg",
+                      "dimensionScheme": "12",
+                      "colorExpression": "",
+                      "expressionIsColor": true,
+                      "measureMin": 0,
+                      "measureMax": 10,
+                      "useDimColVal": false,
+                      "useMeasureGradient": false
+                    },
+                    "displayLegend": "auto",
+                    "showSizeLegend": true,
+                    "showToolTip": true,
+                    "showInAllLevels": true,
+                    "zoomRange": [
+                      0,
+                      20
+                    ],
+                    "showPopUp": true,
+                    "displayUnselected": false,
+                    "label": {
+                      "show": true,
+                      "expression": {
+                        "key": "[CategoryName]",
+                        "label": "dimension.qDef.qFieldDefs[0]",
+                        "type": "expression"
+                      },
+                      "position": "MIDDLE",
+                      "showInAllLevels": true,
+                      "visibleRange": [
+                        0,
+                        20
+                      ]
+                    },
+                    "drillDown": {
+                      "auto": true,
+                      "showLevel0": true,
+                      "showLevel1": true,
+                      "showLevel2": true,
+                      "showLevel3": true,
+                      "showLevel4": true,
+                      "showLevel5": true,
+                      "showLevel6": true,
+                      "showLevel7": true
+                    },
+                    "qHyperCube": {
+                      "qSize": {
+                        "qcx": 1,
+                        "qcy": 8
+                      },
+                      "qDimensionInfo": [
+                        {
+                          "qFallbackTitle": "CategoryLabels",
+                          "qApprMaxGlyphCount": 15,
+                          "qCardinal": 8,
+                          "qSortIndicator": "A",
+                          "qGroupFallbackTitles": [
+                            "CategoryLabels"
+                          ],
+                          "qGroupPos": 0,
+                          "qStateCounts": {
+                            "qLocked": 0,
+                            "qSelected": 0,
+                            "qOption": 8,
+                            "qDeselected": 0,
+                            "qAlternative": 0,
+                            "qExcluded": 0,
+                            "qSelectedExcluded": 0,
+                            "qLockedExcluded": 0
+                          },
+                          "qTags": [
+                            "$text"
+                          ],
+                          "qDimensionType": "D",
+                          "qGrouping": "N",
+                          "qNumFormat": {
+                            "qType": "R",
+                            "qnDec": 14,
+                            "qUseThou": 1,
+                            "qFmt": "##############",
+                            "qDec": "."
+                          },
+                          "qIsAutoFormat": true,
+                          "qGroupFieldDefs": [
+                            "CategoryName"
+                          ],
+                          "qMin": "NaN",
+                          "qMax": "NaN",
+                          "qAttrExprInfo": [],
+                          "qAttrDimInfo": [],
+                          "qCardinalities": {
+                            "qCardinal": 8,
+                            "qHypercubeCardinal": 0,
+                            "qAllValuesCardinal": -1
+                          },
+                          "autoSort": true,
+                          "cId": "PWwawc"
+                        }
+                      ],
+                      "qMeasureInfo": [],
+                      "qEffectiveInterColumnSortOrder": [
+                        0
+                      ],
+                      "qGrandTotalRow": [],
+                      "qDataPages": [
+                        {
+                          "qMatrix": [],
+                          "qTails": [],
+                          "qArea": {
+                            "qLeft": 0,
+                            "qTop": 0,
+                            "qWidth": 1,
+                            "qHeight": 0
+                          }
+                        }
+                      ],
+                      "qPivotDataPages": [],
+                      "qStackedDataPages": [],
+                      "qMode": "S",
+                      "qNoOfLeftDims": -1,
+                      "qTreeNodesOnDim": [],
+                      "qColumnOrder": []
+                    },
+                    "size": {
+                      "radiusMin": 0,
+                      "radiusMax": 2,
+                      "radiusValueMin": 0,
+                      "radiusValueMax": 1,
+                      "autoRadiusValueRange": true,
+                      "expression": {
+                        "key": "",
+                        "label": "",
+                        "type": ""
+                      },
+                      "label": "",
+                      "slider": [
+                        8,
+                        24
+                      ],
+                      "sliderSingle": 1,
+                      "shape": "points"
+                    },
+                    "cId": "qaGgrp",
+                    "id": "qaGgrp",
+                    "isLatLong": true,
+                    "longitude": {
+                      "label": "-1",
+                      "key": "-1",
+                      "type": "expression"
+                    }
+                  },
+                  {
+                    "type": "PointLayer",
+                    "locationOrLatitude": {
+                      "label": "rank(aggr(sum(Sales),Year))*100",
+                      "key": "=-aggr(rank(sum(Sales)),Year,CategoryYear)",
+                      "type": "expression"
+                    },
+                    "locationDefault": "=CategoryName & ' ' & Year",
+                    "locationNamesAuto": true,
+                    "locationType": "",
+                    "locationCountry": {
+                      "key": "",
+                      "label": "",
+                      "type": ""
+                    },
+                    "locationAdmin1": {
+                      "key": "",
+                      "label": "",
+                      "type": ""
+                    },
+                    "locationAdmin2": {
+                      "key": "",
+                      "label": "",
+                      "type": ""
+                    },
+                    "maxObjects": 4000,
+                    "showLayer": true,
+                    "hideCalcCond": false,
+                    "exclFromAutozoom": false,
+                    "color": {
+                      "outline": {
+                        "index": -1,
+                        "color": "#7b7a78"
+                      },
+                      "outlineOpacity": 0,
+                      "opacity": 1,
+                      "auto": false,
+                      "mode": "byDimension",
+                      "paletteColor": {
+                        "index": 6,
+                        "color": "#ffffff"
+                      },
+                      "measureScheme": "sg",
+                      "dimensionScheme": "12",
+                      "colorExpression": "",
+                      "expressionIsColor": true,
+                      "measureMin": 0,
+                      "measureMax": 10,
+                      "useDimColVal": true,
+                      "useMeasureGradient": false,
+                      "altLabel": "Points",
+                      "byDimDef": {
+                        "label": "Points",
+                        "key": "WrdwdGm",
+                        "type": "libraryItem"
+                      },
+                      "persistent": true
+                    },
+                    "displayLegend": "auto",
+                    "showSizeLegend": true,
+                    "showToolTip": true,
+                    "showInAllLevels": true,
+                    "zoomRange": [
+                      0,
+                      20
+                    ],
+                    "showPopUp": true,
+                    "displayUnselected": false,
+                    "label": {
+                      "show": true,
+                      "expression": {
+                        "label": "dimension.qDef.qFieldDefs[0]",
+                        "key": "=round(sum(Sales)/1000)",
+                        "type": "expression"
+                      },
+                      "position": "MIDDLE",
+                      "showInAllLevels": true,
+                      "visibleRange": [
+                        0,
+                        20
+                      ]
+                    },
+                    "drillDown": {
+                      "auto": true,
+                      "showLevel0": true,
+                      "showLevel1": true,
+                      "showLevel2": true,
+                      "showLevel3": true,
+                      "showLevel4": true,
+                      "showLevel5": true,
+                      "showLevel6": true,
+                      "showLevel7": true
+                    },
+                    "qHyperCube": {
+                      "qSize": {
+                        "qcx": 1,
+                        "qcy": 32
+                      },
+                      "qDimensionInfo": [
+                        {
+                          "qFallbackTitle": "Points",
+                          "qApprMaxGlyphCount": 20,
+                          "qCardinal": 32,
+                          "qSortIndicator": "D",
+                          "qGroupFallbackTitles": [
+                            "Points"
+                          ],
+                          "qGroupPos": 0,
+                          "qStateCounts": {
+                            "qLocked": 0,
+                            "qSelected": 0,
+                            "qOption": 32,
+                            "qDeselected": 0,
+                            "qAlternative": 0,
+                            "qExcluded": 0,
+                            "qSelectedExcluded": 0,
+                            "qLockedExcluded": 0
+                          },
+                          "qTags": [
+                            "$text"
+                          ],
+                          "qDimensionType": "D",
+                          "qGrouping": "N",
+                          "qNumFormat": {
+                            "qType": "U",
+                            "qnDec": 0,
+                            "qUseThou": 0
+                          },
+                          "qIsAutoFormat": true,
+                          "qGroupFieldDefs": [
+                            "=CategoryYear"
+                          ],
+                          "qMin": "NaN",
+                          "qMax": "NaN",
+                          "qAttrExprInfo": [],
+                          "qAttrDimInfo": [
+                            {
+                              "qCardinal": 8,
+                              "qSize": {
+                                "qcx": 2,
+                                "qcy": 8
+                              },
+                              "qFallbackTitle": "CategoryRank",
+                              "id": "colorByAlternative",
+                              "colorMapRef": "WrdwdGm"
+                            }
+                          ],
+                          "qCardinalities": {
+                            "qCardinal": 32,
+                            "qHypercubeCardinal": 32,
+                            "qAllValuesCardinal": -1
+                          },
+                          "autoSort": false,
+                          "cId": "JsHmXUV"
+                        }
+                      ],
+                      "qMeasureInfo": [],
+                      "qEffectiveInterColumnSortOrder": [
+                        0
+                      ],
+                      "qGrandTotalRow": [],
+                      "qDataPages": [
+                        {
+                          "qMatrix": [],
+                          "qTails": [],
+                          "qArea": {
+                            "qLeft": 0,
+                            "qTop": 0,
+                            "qWidth": 0,
+                            "qHeight": 0
+                          }
+                        }
+                      ],
+                      "qPivotDataPages": [],
+                      "qStackedDataPages": [],
+                      "qMode": "S",
+                      "qNoOfLeftDims": -1,
+                      "qTreeNodesOnDim": [],
+                      "qColumnOrder": []
+                    },
+                    "size": {
+                      "radiusMin": 14,
+                      "radiusMax": 44,
+                      "radiusValueMin": 0,
+                      "radiusValueMax": 1,
+                      "autoRadiusValueRange": true,
+                      "expression": {
+                        "key": "",
+                        "label": "",
+                        "type": ""
+                      },
+                      "label": "",
+                      "slider": [
+                        8,
+                        24
+                      ],
+                      "sliderSingle": 39,
+                      "shape": "points"
+                    },
+                    "cId": "LMRDMK",
+                    "id": "LMRDMK",
+                    "isLatLong": true,
+                    "longitude": {
+                      "label": "1",
+                      "key": "YearOffset",
+                      "type": "expression"
+                    }
+                  },
+                  {
+                    "type": "LineLayer",
+                    "locationOrLatitude": {
+                      "key": "[CategoryName]",
+                      "label": "CategoryName",
+                      "type": "expression"
+                    },
+                    "locationDefault": "[CategoryName]",
+                    "locationNamesAuto": true,
+                    "locationType": "",
+                    "locationCountry": {
+                      "key": "",
+                      "label": "",
+                      "type": ""
+                    },
+                    "locationAdmin1": {
+                      "key": "",
+                      "label": "",
+                      "type": ""
+                    },
+                    "locationAdmin2": {
+                      "key": "",
+                      "label": "",
+                      "type": ""
+                    },
+                    "maxObjects": 1000,
+                    "showLayer": true,
+                    "hideCalcCond": false,
+                    "exclFromAutozoom": false,
+                    "color": {
+                      "outline": {
+                        "index": -1,
+                        "color": "#7b7a78"
+                      },
+                      "outlineOpacity": 1,
+                      "opacity": 0.5,
+                      "auto": false,
+                      "mode": "byDimension",
+                      "paletteColor": {
+                        "index": 9,
+                        "color": "#ffffff"
+                      },
+                      "measureScheme": "sg",
+                      "dimensionScheme": "12",
+                      "colorExpression": "",
+                      "expressionIsColor": true,
+                      "measureMin": 0,
+                      "measureMax": 10,
+                      "useDimColVal": true,
+                      "useMeasureGradient": false,
+                      "altLabel": "CategoryRank",
+                      "byDimDef": {
+                        "label": "CategoryRank",
+                        "key": "WrdwdGm",
+                        "type": "libraryItem"
+                      },
+                      "persistent": true
+                    },
+                    "displayLegend": "auto",
+                    "showSizeLegend": true,
+                    "showToolTip": true,
+                    "showInAllLevels": true,
+                    "zoomRange": [
+                      0,
+                      20
+                    ],
+                    "showPopUp": true,
+                    "displayUnselected": false,
+                    "label": {
+                      "show": false,
+                      "expression": {
+                        "key": "[CategoryName]",
+                        "label": "dimension.qDef.qFieldDefs[0]",
+                        "type": "expression"
+                      },
+                      "position": "TOP",
+                      "showInAllLevels": true,
+                      "visibleRange": [
+                        0,
+                        20
+                      ]
+                    },
+                    "drillDown": {
+                      "auto": true,
+                      "showLevel0": true,
+                      "showLevel1": true,
+                      "showLevel2": true,
+                      "showLevel3": true,
+                      "showLevel4": true,
+                      "showLevel5": true,
+                      "showLevel6": true,
+                      "showLevel7": true
+                    },
+                    "qHyperCube": {
+                      "qSize": {
+                        "qcx": 1,
+                        "qcy": 9
+                      },
+                      "qDimensionInfo": [
+                        {
+                          "qFallbackTitle": "Line",
+                          "qApprMaxGlyphCount": 15,
+                          "qCardinal": 8,
+                          "qSortIndicator": "A",
+                          "qGroupFallbackTitles": [
+                            "Line"
+                          ],
+                          "qGroupPos": 0,
+                          "qStateCounts": {
+                            "qLocked": 0,
+                            "qSelected": 0,
+                            "qOption": 8,
+                            "qDeselected": 0,
+                            "qAlternative": 0,
+                            "qExcluded": 0,
+                            "qSelectedExcluded": 0,
+                            "qLockedExcluded": 0
+                          },
+                          "qTags": [
+                            "$text"
+                          ],
+                          "qDimensionType": "D",
+                          "qGrouping": "N",
+                          "qNumFormat": {
+                            "qType": "R",
+                            "qnDec": 14,
+                            "qUseThou": 1,
+                            "qFmt": "##############",
+                            "qDec": "."
+                          },
+                          "qIsAutoFormat": true,
+                          "qGroupFieldDefs": [
+                            "CategoryName"
+                          ],
+                          "qMin": "NaN",
+                          "qMax": "NaN",
+                          "qAttrExprInfo": [],
+                          "qAttrDimInfo": [
+                            {
+                              "qCardinal": 8,
+                              "qSize": {
+                                "qcx": 2,
+                                "qcy": 8
+                              },
+                              "qFallbackTitle": "CategoryRank",
+                              "id": "colorByAlternative",
+                              "colorMapRef": "WrdwdGm"
+                            }
+                          ],
+                          "qCardinalities": {
+                            "qCardinal": 8,
+                            "qHypercubeCardinal": 9,
+                            "qAllValuesCardinal": -1
+                          },
+                          "autoSort": true,
+                          "cId": "VEJCrrM"
+                        }
+                      ],
+                      "qMeasureInfo": [],
+                      "qEffectiveInterColumnSortOrder": [
+                        0
+                      ],
+                      "qGrandTotalRow": [],
+                      "qDataPages": [
+                        {
+                          "qMatrix": [],
+                          "qTails": [],
+                          "qArea": {
+                            "qLeft": 0,
+                            "qTop": 0,
+                            "qWidth": 0,
+                            "qHeight": 0
+                          }
+                        }
+                      ],
+                      "qPivotDataPages": [],
+                      "qStackedDataPages": [],
+                      "qMode": "S",
+                      "qNoOfLeftDims": -1,
+                      "qTreeNodesOnDim": [],
+                      "qColumnOrder": []
+                    },
+                    "size": {
+                      "radiusMin": 4,
+                      "radiusMax": 12,
+                      "radiusValueMin": 0,
+                      "radiusValueMax": 1,
+                      "autoRadiusValueRange": true,
+                      "expression": {
+                        "key": "",
+                        "label": "",
+                        "type": ""
+                      },
+                      "label": "",
+                      "slider": [
+                        8,
+                        24
+                      ],
+                      "sliderSingle": 5,
+                      "arrowDirection": "none",
+                      "arrowPosition": 80,
+                      "curviness": 0
+                    },
+                    "location2": {
+                      "locationOrLatitude": {
+                        "key": "",
+                        "label": "",
+                        "type": ""
+                      },
+                      "locationDefault": "",
+                      "locationNamesAuto": true,
+                      "locationType": "",
+                      "locationCountry": {
+                        "key": "",
+                        "label": "",
+                        "type": ""
+                      },
+                      "locationAdmin1": {
+                        "key": "",
+                        "label": "",
+                        "type": ""
+                      },
+                      "locationAdmin2": {
+                        "key": "",
+                        "label": "",
+                        "type": ""
+                      }
+                    },
+                    "path": {
+                      "startEndPoint": false,
+                      "field": {
+                        "label": "CategoryName",
+                        "key": "='[[[' & concat(aggr(\r\nYearOffset & ',' & -rank(sum(Sales)), YearOffset, CategoryName),'],[')\n& ']]]'",
+                        "type": "expression"
+                      },
+                      "locationDefault": "[CategoryName]"
+                    },
+                    "cId": "aYwBj",
+                    "id": "aYwBj"
+                  }
+                ],
+                "mapSettings": {
+                  "_layerType": "",
+                  "baseMap": "empty",
+                  "projection": "empty",
+                  "mapLanguage": "auto",
+                  "useImperialUnits": false,
+                  "selectionType": "lasso",
+                  "initialView": null,
+                  "showLegend": false,
+                  "sidebarAlignment": "auto",
+                  "showFindLocationButton": false,
+                  "showScaleBar": false,
+                  "zoomLimitSwitch": false,
+                  "zoomLimit": {
+                    "range": [
+                      0,
+                      20
+                    ]
+                  },
+                  "panLimitSwitch": false,
+                  "panLimits": null,
+                  "showDebugInfo": false
+                },
+                "autoZoomOnSelection": true,
+                "showTitles": false,
+                "title": "",
+                "subtitle": "",
+                "footnote": "",
+                "showDetails": false,
+                "navigation": false,
+                "visualization": "map",
+                "gaVersion": 2,
+                "layers": [],
+                "qUndoExclude": {
+                  "hashCode": 13863363,
+                  "gaLayers": [
+                    {
+                      "qHyperCube": {
+                        "qSize": {
+                          "qcx": 1,
+                          "qcy": 5
+                        },
+                        "qDimensionInfo": [
+                          {
+                            "qFallbackTitle": "YearLabel",
+                            "qApprMaxGlyphCount": 4,
+                            "qCardinal": 4,
+                            "qSortIndicator": "A",
+                            "qGroupFallbackTitles": [
+                              "YearLabel"
+                            ],
+                            "qGroupPos": 0,
+                            "qStateCounts": {
+                              "qLocked": 0,
+                              "qSelected": 0,
+                              "qOption": 4,
+                              "qDeselected": 0,
+                              "qAlternative": 0,
+                              "qExcluded": 0,
+                              "qSelectedExcluded": 0,
+                              "qLockedExcluded": 0
+                            },
+                            "qTags": [
+                              "$numeric",
+                              "$integer"
+                            ],
+                            "qDimensionType": "N",
+                            "qGrouping": "N",
+                            "qNumFormat": {
+                              "qType": "U",
+                              "qnDec": 0,
+                              "qUseThou": 0
+                            },
+                            "qIsAutoFormat": true,
+                            "qGroupFieldDefs": [
+                              "Year"
+                            ],
+                            "qMin": 2009,
+                            "qMax": 2012,
+                            "qContinuousAxes": true,
+                            "qAttrExprInfo": [
+                              {
+                                "qMin": -8.5,
+                                "qMax": -8.5,
+                                "qFallbackTitle": "-8.5",
+                                "qMinText": "-8.5",
+                                "qMaxText": "-8.5",
+                                "qNumFormat": {
+                                  "qType": "U",
+                                  "qnDec": 10,
+                                  "qUseThou": 0
+                                },
+                                "id": "locationOrLatitude"
+                              },
+                              {
+                                "qMin": 0,
+                                "qMax": 6,
+                                "qFallbackTitle": "YearOffset",
+                                "qMinText": "0",
+                                "qMaxText": "6",
+                                "qNumFormat": {
+                                  "qType": "U",
+                                  "qnDec": 10,
+                                  "qUseThou": 0
+                                },
+                                "id": "longitude"
+                              },
+                              {
+                                "qMin": 2009,
+                                "qMax": 2012,
+                                "qFallbackTitle": "[Year]",
+                                "qMinText": "2009",
+                                "qMaxText": "2012",
+                                "qNumFormat": {
+                                  "qType": "U",
+                                  "qnDec": 10,
+                                  "qUseThou": 0
+                                },
+                                "id": "label"
+                              }
+                            ],
+                            "qAttrDimInfo": [],
+                            "qCardinalities": {
+                              "qCardinal": 4,
+                              "qHypercubeCardinal": 5,
+                              "qAllValuesCardinal": -1
+                            },
+                            "autoSort": true,
+                            "cId": "LLUbjMY"
+                          }
+                        ],
+                        "qMeasureInfo": [],
+                        "qEffectiveInterColumnSortOrder": [
+                          0
+                        ],
+                        "qGrandTotalRow": [],
+                        "qDataPages": [
+                          {
+                            "qMatrix": [
+                              [
+                                {
+                                  "qText": "2009",
+                                  "qNum": 2009,
+                                  "qElemNumber": 3,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-8.5",
+                                        "qNum": -8.5
+                                      },
+                                      {
+                                        "qText": "0",
+                                        "qNum": 0
+                                      },
+                                      {
+                                        "qText": "2009",
+                                        "qNum": 2009
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "2010",
+                                  "qNum": 2010,
+                                  "qElemNumber": 0,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-8.5",
+                                        "qNum": -8.5
+                                      },
+                                      {
+                                        "qText": "2",
+                                        "qNum": 2
+                                      },
+                                      {
+                                        "qText": "2010",
+                                        "qNum": 2010
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "2011",
+                                  "qNum": 2011,
+                                  "qElemNumber": 1,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-8.5",
+                                        "qNum": -8.5
+                                      },
+                                      {
+                                        "qText": "4",
+                                        "qNum": 4
+                                      },
+                                      {
+                                        "qText": "2011",
+                                        "qNum": 2011
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "2012",
+                                  "qNum": 2012,
+                                  "qElemNumber": 2,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-8.5",
+                                        "qNum": -8.5
+                                      },
+                                      {
+                                        "qText": "6",
+                                        "qNum": 6
+                                      },
+                                      {
+                                        "qText": "2012",
+                                        "qNum": 2012
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "-",
+                                  "qNum": "NaN",
+                                  "qElemNumber": -2,
+                                  "qState": "L",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-8.5",
+                                        "qNum": -8.5
+                                      },
+                                      {
+                                        "qNum": "NaN"
+                                      },
+                                      {
+                                        "qNum": "NaN"
+                                      }
+                                    ]
+                                  },
+                                  "qIsNull": true
+                                }
+                              ]
+                            ],
+                            "qTails": [
+                              {
+                                "qUp": 0,
+                                "qDown": 0
+                              }
+                            ],
+                            "qArea": {
+                              "qLeft": 0,
+                              "qTop": 0,
+                              "qWidth": 1,
+                              "qHeight": 5
+                            }
+                          }
+                        ],
+                        "qPivotDataPages": [],
+                        "qStackedDataPages": [],
+                        "qMode": "S",
+                        "qNoOfLeftDims": -1,
+                        "qTreeNodesOnDim": [],
+                        "qColumnOrder": []
+                      },
+                      "color": {
+                        "outline": {
+                          "index": -1,
+                          "color": "#7b7a78"
+                        },
+                        "outlineOpacity": 0,
+                        "opacity": 0,
+                        "auto": false,
+                        "mode": "primary",
+                        "paletteColor": {
+                          "index": 9,
+                          "color": "#ffffff"
+                        },
+                        "measureScheme": "sg",
+                        "dimensionScheme": "12",
+                        "colorExpression": "",
+                        "expressionIsColor": true,
+                        "measureMin": 0,
+                        "measureMax": 10,
+                        "useDimColVal": false,
+                        "useMeasureGradient": false
+                      }
+                    },
+                    {
+                      "qHyperCube": {
+                        "qSize": {
+                          "qcx": 1,
+                          "qcy": 9
+                        },
+                        "qDimensionInfo": [
+                          {
+                            "qFallbackTitle": "CategoryLabels",
+                            "qApprMaxGlyphCount": 15,
+                            "qCardinal": 8,
+                            "qSortIndicator": "A",
+                            "qGroupFallbackTitles": [
+                              "CategoryLabels"
+                            ],
+                            "qGroupPos": 0,
+                            "qStateCounts": {
+                              "qLocked": 0,
+                              "qSelected": 0,
+                              "qOption": 8,
+                              "qDeselected": 0,
+                              "qAlternative": 0,
+                              "qExcluded": 0,
+                              "qSelectedExcluded": 0,
+                              "qLockedExcluded": 0
+                            },
+                            "qTags": [
+                              "$text"
+                            ],
+                            "qDimensionType": "D",
+                            "qGrouping": "N",
+                            "qNumFormat": {
+                              "qType": "R",
+                              "qnDec": 14,
+                              "qUseThou": 1,
+                              "qFmt": "##############",
+                              "qDec": "."
+                            },
+                            "qIsAutoFormat": true,
+                            "qGroupFieldDefs": [
+                              "CategoryName"
+                            ],
+                            "qMin": "NaN",
+                            "qMax": "NaN",
+                            "qAttrExprInfo": [
+                              {
+                                "qMin": -9,
+                                "qMax": -1,
+                                "qFallbackTitle": "=-rank(sum({<Year={'2009'}>} Sales))",
+                                "qMinText": "-9",
+                                "qMaxText": "-1",
+                                "qNumFormat": {
+                                  "qType": "U",
+                                  "qnDec": 10,
+                                  "qUseThou": 0
+                                },
+                                "id": "locationOrLatitude"
+                              },
+                              {
+                                "qMin": -1,
+                                "qMax": -1,
+                                "qFallbackTitle": "-1",
+                                "qMinText": "-1",
+                                "qMaxText": "-1",
+                                "qNumFormat": {
+                                  "qType": "U",
+                                  "qnDec": 10,
+                                  "qUseThou": 0
+                                },
+                                "id": "longitude"
+                              },
+                              {
+                                "qMin": "NaN",
+                                "qMax": "NaN",
+                                "qFallbackTitle": "[CategoryName]",
+                                "qNumFormat": {
+                                  "qType": "U",
+                                  "qnDec": 10,
+                                  "qUseThou": 0
+                                },
+                                "id": "label"
+                              }
+                            ],
+                            "qAttrDimInfo": [],
+                            "qCardinalities": {
+                              "qCardinal": 8,
+                              "qHypercubeCardinal": 9,
+                              "qAllValuesCardinal": -1
+                            },
+                            "autoSort": true,
+                            "cId": "PWwawc"
+                          }
+                        ],
+                        "qMeasureInfo": [],
+                        "qEffectiveInterColumnSortOrder": [
+                          0
+                        ],
+                        "qGrandTotalRow": [],
+                        "qDataPages": [
+                          {
+                            "qMatrix": [
+                              [
+                                {
+                                  "qText": "Babywear",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 6,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-3",
+                                        "qNum": -3
+                                      },
+                                      {
+                                        "qText": "-1",
+                                        "qNum": -1
+                                      },
+                                      {
+                                        "qText": "Babywear",
+                                        "qNum": "NaN"
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Bath Clothes",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 3,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-8",
+                                        "qNum": -8
+                                      },
+                                      {
+                                        "qText": "-1",
+                                        "qNum": -1
+                                      },
+                                      {
+                                        "qText": "Bath Clothes",
+                                        "qNum": "NaN"
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Children´s wear",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 5,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-7",
+                                        "qNum": -7
+                                      },
+                                      {
+                                        "qText": "-1",
+                                        "qNum": -1
+                                      },
+                                      {
+                                        "qText": "Children´s wear",
+                                        "qNum": "NaN"
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Ladies´Footwear",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 4,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-6",
+                                        "qNum": -6
+                                      },
+                                      {
+                                        "qText": "-1",
+                                        "qNum": -1
+                                      },
+                                      {
+                                        "qText": "Ladies´Footwear",
+                                        "qNum": "NaN"
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Men´s Clothes",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 0,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-5",
+                                        "qNum": -5
+                                      },
+                                      {
+                                        "qText": "-1",
+                                        "qNum": -1
+                                      },
+                                      {
+                                        "qText": "Men´s Clothes",
+                                        "qNum": "NaN"
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Men´s Footwear",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 7,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-4",
+                                        "qNum": -4
+                                      },
+                                      {
+                                        "qText": "-1",
+                                        "qNum": -1
+                                      },
+                                      {
+                                        "qText": "Men´s Footwear",
+                                        "qNum": "NaN"
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Sportwear",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 2,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-1",
+                                        "qNum": -1
+                                      },
+                                      {
+                                        "qText": "-1",
+                                        "qNum": -1
+                                      },
+                                      {
+                                        "qText": "Sportwear",
+                                        "qNum": "NaN"
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Womens wear",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 1,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-2",
+                                        "qNum": -2
+                                      },
+                                      {
+                                        "qText": "-1",
+                                        "qNum": -1
+                                      },
+                                      {
+                                        "qText": "Womens wear",
+                                        "qNum": "NaN"
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "-",
+                                  "qNum": "NaN",
+                                  "qElemNumber": -2,
+                                  "qState": "L",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-9",
+                                        "qNum": -9
+                                      },
+                                      {
+                                        "qText": "-1",
+                                        "qNum": -1
+                                      },
+                                      {
+                                        "qNum": "NaN"
+                                      }
+                                    ]
+                                  },
+                                  "qIsNull": true
+                                }
+                              ]
+                            ],
+                            "qTails": [
+                              {
+                                "qUp": 0,
+                                "qDown": 0
+                              }
+                            ],
+                            "qArea": {
+                              "qLeft": 0,
+                              "qTop": 0,
+                              "qWidth": 1,
+                              "qHeight": 9
+                            }
+                          }
+                        ],
+                        "qPivotDataPages": [],
+                        "qStackedDataPages": [],
+                        "qMode": "S",
+                        "qNoOfLeftDims": -1,
+                        "qTreeNodesOnDim": [],
+                        "qColumnOrder": []
+                      },
+                      "color": {
+                        "outline": {
+                          "index": -1,
+                          "color": "#7b7a78"
+                        },
+                        "outlineOpacity": 0.05,
+                        "opacity": 0,
+                        "auto": false,
+                        "mode": "primary",
+                        "paletteColor": {
+                          "index": 6,
+                          "color": "#ffffff"
+                        },
+                        "measureScheme": "sg",
+                        "dimensionScheme": "12",
+                        "colorExpression": "",
+                        "expressionIsColor": true,
+                        "measureMin": 0,
+                        "measureMax": 10,
+                        "useDimColVal": false,
+                        "useMeasureGradient": false
+                      }
+                    },
+                    {
+                      "qHyperCube": {
+                        "qSize": {
+                          "qcx": 1,
+                          "qcy": 32
+                        },
+                        "qDimensionInfo": [
+                          {
+                            "qFallbackTitle": "Points",
+                            "qApprMaxGlyphCount": 20,
+                            "qCardinal": 32,
+                            "qSortIndicator": "D",
+                            "qGroupFallbackTitles": [
+                              "Points"
+                            ],
+                            "qGroupPos": 0,
+                            "qStateCounts": {
+                              "qLocked": 0,
+                              "qSelected": 0,
+                              "qOption": 32,
+                              "qDeselected": 0,
+                              "qAlternative": 0,
+                              "qExcluded": 0,
+                              "qSelectedExcluded": 0,
+                              "qLockedExcluded": 0
+                            },
+                            "qTags": [
+                              "$text"
+                            ],
+                            "qDimensionType": "D",
+                            "qGrouping": "N",
+                            "qNumFormat": {
+                              "qType": "U",
+                              "qnDec": 0,
+                              "qUseThou": 0
+                            },
+                            "qIsAutoFormat": true,
+                            "qGroupFieldDefs": [
+                              "=CategoryYear"
+                            ],
+                            "qMin": "NaN",
+                            "qMax": "NaN",
+                            "qAttrExprInfo": [
+                              {
+                                "qMin": -8,
+                                "qMax": -1,
+                                "qFallbackTitle": "=-aggr(rank(sum(Sales)),Year,CategoryYear)",
+                                "qMinText": "-8",
+                                "qMaxText": "-1",
+                                "qNumFormat": {
+                                  "qType": "U",
+                                  "qnDec": 10,
+                                  "qUseThou": 0
+                                },
+                                "id": "locationOrLatitude"
+                              },
+                              {
+                                "qMin": 0,
+                                "qMax": 6,
+                                "qFallbackTitle": "YearOffset",
+                                "qMinText": "0",
+                                "qMaxText": "6",
+                                "qNumFormat": {
+                                  "qType": "U",
+                                  "qnDec": 10,
+                                  "qUseThou": 0
+                                },
+                                "id": "longitude"
+                              },
+                              {
+                                "qMin": 15,
+                                "qMax": 31189,
+                                "qFallbackTitle": "=round(sum(Sales)/1000)",
+                                "qMinText": "15",
+                                "qMaxText": "31189",
+                                "qNumFormat": {
+                                  "qType": "U",
+                                  "qnDec": 10,
+                                  "qUseThou": 0
+                                },
+                                "id": "label"
+                              }
+                            ],
+                            "qAttrDimInfo": [
+                              {
+                                "qCardinal": 8,
+                                "qSize": {
+                                  "qcx": 2,
+                                  "qcy": 8
+                                },
+                                "qFallbackTitle": "CategoryRank",
+                                "id": "colorByAlternative",
+                                "colorMapRef": "WrdwdGm"
+                              }
+                            ],
+                            "qCardinalities": {
+                              "qCardinal": 32,
+                              "qHypercubeCardinal": 32,
+                              "qAllValuesCardinal": -1
+                            },
+                            "autoSort": false,
+                            "cId": "JsHmXUV"
+                          }
+                        ],
+                        "qMeasureInfo": [],
+                        "qEffectiveInterColumnSortOrder": [
+                          0
+                        ],
+                        "qGrandTotalRow": [],
+                        "qDataPages": [
+                          {
+                            "qMatrix": [
+                              [
+                                {
+                                  "qText": "Womens wear 2011",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 1,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-1",
+                                        "qNum": -1
+                                      },
+                                      {
+                                        "qText": "4",
+                                        "qNum": 4
+                                      },
+                                      {
+                                        "qText": "31189",
+                                        "qNum": 31189
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Womens wear",
+                                        "qElemNo": 1
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Womens wear 2012",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 2,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-1",
+                                        "qNum": -1
+                                      },
+                                      {
+                                        "qText": "6",
+                                        "qNum": 6
+                                      },
+                                      {
+                                        "qText": "29084",
+                                        "qNum": 29084
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Womens wear",
+                                        "qElemNo": 1
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Sportwear 2012",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 20,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-2",
+                                        "qNum": -2
+                                      },
+                                      {
+                                        "qText": "6",
+                                        "qNum": 6
+                                      },
+                                      {
+                                        "qText": "20534",
+                                        "qNum": 20534
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Sportwear",
+                                        "qElemNo": 2
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Sportwear 2011",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 4,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-2",
+                                        "qNum": -2
+                                      },
+                                      {
+                                        "qText": "4",
+                                        "qNum": 4
+                                      },
+                                      {
+                                        "qText": "20430",
+                                        "qNum": 20430
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Sportwear",
+                                        "qElemNo": 2
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Womens wear 2010",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 3,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-1",
+                                        "qNum": -1
+                                      },
+                                      {
+                                        "qText": "2",
+                                        "qNum": 2
+                                      },
+                                      {
+                                        "qText": "8416",
+                                        "qNum": 8416
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Womens wear",
+                                        "qElemNo": 1
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Sportwear 2010",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 5,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-2",
+                                        "qNum": -2
+                                      },
+                                      {
+                                        "qText": "2",
+                                        "qNum": 2
+                                      },
+                                      {
+                                        "qText": "8202",
+                                        "qNum": 8202
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Sportwear",
+                                        "qElemNo": 2
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Men´s Clothes 2012",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 12,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-3",
+                                        "qNum": -3
+                                      },
+                                      {
+                                        "qText": "6",
+                                        "qNum": 6
+                                      },
+                                      {
+                                        "qText": "8044",
+                                        "qNum": 8044
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Men´s Clothes",
+                                        "qElemNo": 0
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Babywear 2012",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 23,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-4",
+                                        "qNum": -4
+                                      },
+                                      {
+                                        "qText": "6",
+                                        "qNum": 6
+                                      },
+                                      {
+                                        "qText": "7264",
+                                        "qNum": 7264
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Babywear",
+                                        "qElemNo": 6
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Babywear 2011",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 11,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-3",
+                                        "qNum": -3
+                                      },
+                                      {
+                                        "qText": "4",
+                                        "qNum": 4
+                                      },
+                                      {
+                                        "qText": "6924",
+                                        "qNum": 6924
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Babywear",
+                                        "qElemNo": 6
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Men´s Footwear 2011",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 16,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-4",
+                                        "qNum": -4
+                                      },
+                                      {
+                                        "qText": "4",
+                                        "qNum": 4
+                                      },
+                                      {
+                                        "qText": "6830",
+                                        "qNum": 6830
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Men´s Footwear",
+                                        "qElemNo": 7
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Men´s Footwear 2012",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 28,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-5",
+                                        "qNum": -5
+                                      },
+                                      {
+                                        "qText": "6",
+                                        "qNum": 6
+                                      },
+                                      {
+                                        "qText": "5755",
+                                        "qNum": 5755
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Men´s Footwear",
+                                        "qElemNo": 7
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Men´s Clothes 2011",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 13,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-5",
+                                        "qNum": -5
+                                      },
+                                      {
+                                        "qText": "4",
+                                        "qNum": 4
+                                      },
+                                      {
+                                        "qText": "5515",
+                                        "qNum": 5515
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Men´s Clothes",
+                                        "qElemNo": 0
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Ladies´Footwear 2011",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 7,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-6",
+                                        "qNum": -6
+                                      },
+                                      {
+                                        "qText": "4",
+                                        "qNum": 4
+                                      },
+                                      {
+                                        "qText": "4355",
+                                        "qNum": 4355
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Ladies´Footwear",
+                                        "qElemNo": 4
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Ladies´Footwear 2012",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 8,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-6",
+                                        "qNum": -6
+                                      },
+                                      {
+                                        "qText": "6",
+                                        "qNum": 6
+                                      },
+                                      {
+                                        "qText": "3436",
+                                        "qNum": 3436
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Ladies´Footwear",
+                                        "qElemNo": 4
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Bath Clothes 2012",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 6,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-7",
+                                        "qNum": -7
+                                      },
+                                      {
+                                        "qText": "6",
+                                        "qNum": 6
+                                      },
+                                      {
+                                        "qText": "1934",
+                                        "qNum": 1934
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Bath Clothes",
+                                        "qElemNo": 3
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Ladies´Footwear 2010",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 26,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-3",
+                                        "qNum": -3
+                                      },
+                                      {
+                                        "qText": "2",
+                                        "qNum": 2
+                                      },
+                                      {
+                                        "qText": "1437",
+                                        "qNum": 1437
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Ladies´Footwear",
+                                        "qElemNo": 4
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Men´s Clothes 2010",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 0,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-4",
+                                        "qNum": -4
+                                      },
+                                      {
+                                        "qText": "2",
+                                        "qNum": 2
+                                      },
+                                      {
+                                        "qText": "1229",
+                                        "qNum": 1229
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Men´s Clothes",
+                                        "qElemNo": 0
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Bath Clothes 2011",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 15,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-7",
+                                        "qNum": -7
+                                      },
+                                      {
+                                        "qText": "4",
+                                        "qNum": 4
+                                      },
+                                      {
+                                        "qText": "1195",
+                                        "qNum": 1195
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Bath Clothes",
+                                        "qElemNo": 3
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Children´s wear 2012",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 17,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-8",
+                                        "qNum": -8
+                                      },
+                                      {
+                                        "qText": "6",
+                                        "qNum": 6
+                                      },
+                                      {
+                                        "qText": "1092",
+                                        "qNum": 1092
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Children´s wear",
+                                        "qElemNo": 5
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Children´s wear 2011",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 9,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-8",
+                                        "qNum": -8
+                                      },
+                                      {
+                                        "qText": "4",
+                                        "qNum": 4
+                                      },
+                                      {
+                                        "qText": "954",
+                                        "qNum": 954
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Children´s wear",
+                                        "qElemNo": 5
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Sportwear 2009",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 25,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-1",
+                                        "qNum": -1
+                                      },
+                                      {
+                                        "qText": "0",
+                                        "qNum": 0
+                                      },
+                                      {
+                                        "qText": "898",
+                                        "qNum": 898
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Sportwear",
+                                        "qElemNo": 2
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Babywear 2010",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 19,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-5",
+                                        "qNum": -5
+                                      },
+                                      {
+                                        "qText": "2",
+                                        "qNum": 2
+                                      },
+                                      {
+                                        "qText": "889",
+                                        "qNum": 889
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Babywear",
+                                        "qElemNo": 6
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Men´s Footwear 2010",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 27,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-6",
+                                        "qNum": -6
+                                      },
+                                      {
+                                        "qText": "2",
+                                        "qNum": 2
+                                      },
+                                      {
+                                        "qText": "888",
+                                        "qNum": 888
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Men´s Footwear",
+                                        "qElemNo": 7
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Womens wear 2009",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 31,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-2",
+                                        "qNum": -2
+                                      },
+                                      {
+                                        "qText": "0",
+                                        "qNum": 0
+                                      },
+                                      {
+                                        "qText": "602",
+                                        "qNum": 602
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Womens wear",
+                                        "qElemNo": 1
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Children´s wear 2010",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 18,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-7",
+                                        "qNum": -7
+                                      },
+                                      {
+                                        "qText": "2",
+                                        "qNum": 2
+                                      },
+                                      {
+                                        "qText": "484",
+                                        "qNum": 484
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Children´s wear",
+                                        "qElemNo": 5
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Bath Clothes 2010",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 14,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-8",
+                                        "qNum": -8
+                                      },
+                                      {
+                                        "qText": "2",
+                                        "qNum": 2
+                                      },
+                                      {
+                                        "qText": "309",
+                                        "qNum": 309
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Bath Clothes",
+                                        "qElemNo": 3
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Babywear 2009",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 10,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-3",
+                                        "qNum": -3
+                                      },
+                                      {
+                                        "qText": "0",
+                                        "qNum": 0
+                                      },
+                                      {
+                                        "qText": "162",
+                                        "qNum": 162
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Babywear",
+                                        "qElemNo": 6
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Men´s Footwear 2009",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 22,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-4",
+                                        "qNum": -4
+                                      },
+                                      {
+                                        "qText": "0",
+                                        "qNum": 0
+                                      },
+                                      {
+                                        "qText": "95",
+                                        "qNum": 95
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Men´s Footwear",
+                                        "qElemNo": 7
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Men´s Clothes 2009",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 24,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-5",
+                                        "qNum": -5
+                                      },
+                                      {
+                                        "qText": "0",
+                                        "qNum": 0
+                                      },
+                                      {
+                                        "qText": "78",
+                                        "qNum": 78
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Men´s Clothes",
+                                        "qElemNo": 0
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Ladies´Footwear 2009",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 29,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-6",
+                                        "qNum": -6
+                                      },
+                                      {
+                                        "qText": "0",
+                                        "qNum": 0
+                                      },
+                                      {
+                                        "qText": "56",
+                                        "qNum": 56
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Ladies´Footwear",
+                                        "qElemNo": 4
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Children´s wear 2009",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 30,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-7",
+                                        "qNum": -7
+                                      },
+                                      {
+                                        "qText": "0",
+                                        "qNum": 0
+                                      },
+                                      {
+                                        "qText": "26",
+                                        "qNum": 26
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Children´s wear",
+                                        "qElemNo": 5
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Bath Clothes 2009",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 21,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "-8",
+                                        "qNum": -8
+                                      },
+                                      {
+                                        "qText": "0",
+                                        "qNum": 0
+                                      },
+                                      {
+                                        "qText": "15",
+                                        "qNum": 15
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Bath Clothes",
+                                        "qElemNo": 3
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            ],
+                            "qTails": [
+                              {
+                                "qUp": 0,
+                                "qDown": 0
+                              }
+                            ],
+                            "qArea": {
+                              "qLeft": 0,
+                              "qTop": 0,
+                              "qWidth": 1,
+                              "qHeight": 32
+                            }
+                          }
+                        ],
+                        "qPivotDataPages": [],
+                        "qStackedDataPages": [],
+                        "qMode": "S",
+                        "qNoOfLeftDims": -1,
+                        "qTreeNodesOnDim": [],
+                        "qColumnOrder": []
+                      },
+                      "color": {
+                        "outline": {
+                          "index": -1,
+                          "color": "#7b7a78"
+                        },
+                        "outlineOpacity": 0,
+                        "opacity": 1,
+                        "auto": false,
+                        "mode": "byDimension",
+                        "paletteColor": {
+                          "index": 6,
+                          "color": "#ffffff"
+                        },
+                        "measureScheme": "sg",
+                        "dimensionScheme": "12",
+                        "colorExpression": "",
+                        "expressionIsColor": true,
+                        "measureMin": 0,
+                        "measureMax": 10,
+                        "useDimColVal": true,
+                        "useMeasureGradient": false,
+                        "altLabel": "Points",
+                        "byDimDef": {
+                          "label": "Points",
+                          "key": "WrdwdGm",
+                          "type": "libraryItem"
+                        },
+                        "persistent": true
+                      }
+                    },
+                    {
+                      "qHyperCube": {
+                        "qSize": {
+                          "qcx": 1,
+                          "qcy": 9
+                        },
+                        "qDimensionInfo": [
+                          {
+                            "qFallbackTitle": "Line",
+                            "qApprMaxGlyphCount": 15,
+                            "qCardinal": 8,
+                            "qSortIndicator": "A",
+                            "qGroupFallbackTitles": [
+                              "Line"
+                            ],
+                            "qGroupPos": 0,
+                            "qStateCounts": {
+                              "qLocked": 0,
+                              "qSelected": 0,
+                              "qOption": 8,
+                              "qDeselected": 0,
+                              "qAlternative": 0,
+                              "qExcluded": 0,
+                              "qSelectedExcluded": 0,
+                              "qLockedExcluded": 0
+                            },
+                            "qTags": [
+                              "$text"
+                            ],
+                            "qDimensionType": "D",
+                            "qGrouping": "N",
+                            "qNumFormat": {
+                              "qType": "R",
+                              "qnDec": 14,
+                              "qUseThou": 1,
+                              "qFmt": "##############",
+                              "qDec": "."
+                            },
+                            "qIsAutoFormat": true,
+                            "qGroupFieldDefs": [
+                              "CategoryName"
+                            ],
+                            "qMin": "NaN",
+                            "qMax": "NaN",
+                            "qAttrExprInfo": [
+                              {
+                                "qMin": "NaN",
+                                "qMax": "NaN",
+                                "qFallbackTitle": "='[[[' & concat(aggr(\r\nYearOffset & ',' & -rank(sum(Sales)), YearOffset, CategoryName),'],[')\n& ']]]'",
+                                "qNumFormat": {
+                                  "qType": "U",
+                                  "qnDec": 10,
+                                  "qUseThou": 0
+                                },
+                                "id": "path"
+                              }
+                            ],
+                            "qAttrDimInfo": [
+                              {
+                                "qCardinal": 8,
+                                "qSize": {
+                                  "qcx": 2,
+                                  "qcy": 8
+                                },
+                                "qFallbackTitle": "CategoryRank",
+                                "id": "colorByAlternative",
+                                "colorMapRef": "WrdwdGm"
+                              }
+                            ],
+                            "qCardinalities": {
+                              "qCardinal": 8,
+                              "qHypercubeCardinal": 9,
+                              "qAllValuesCardinal": -1
+                            },
+                            "autoSort": true,
+                            "cId": "VEJCrrM"
+                          }
+                        ],
+                        "qMeasureInfo": [],
+                        "qEffectiveInterColumnSortOrder": [
+                          0
+                        ],
+                        "qGrandTotalRow": [],
+                        "qDataPages": [
+                          {
+                            "qMatrix": [
+                              [
+                                {
+                                  "qText": "Babywear",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 6,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "[[[0,-3],[2,-5],[4,-3],[6,-4]]]",
+                                        "qNum": "NaN"
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Babywear",
+                                        "qElemNo": 6
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Bath Clothes",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 3,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "[[[0,-8],[2,-8],[4,-7],[6,-7]]]",
+                                        "qNum": "NaN"
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Bath Clothes",
+                                        "qElemNo": 3
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Children´s wear",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 5,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "[[[0,-7],[2,-7],[4,-8],[6,-8]]]",
+                                        "qNum": "NaN"
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Children´s wear",
+                                        "qElemNo": 5
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Ladies´Footwear",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 4,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "[[[0,-6],[2,-3],[4,-6],[6,-6]]]",
+                                        "qNum": "NaN"
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Ladies´Footwear",
+                                        "qElemNo": 4
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Men´s Clothes",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 0,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "[[[0,-5],[2,-4],[4,-5],[6,-3]]]",
+                                        "qNum": "NaN"
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Men´s Clothes",
+                                        "qElemNo": 0
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Men´s Footwear",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 7,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "[[[0,-4],[2,-6],[4,-4],[6,-5]]]",
+                                        "qNum": "NaN"
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Men´s Footwear",
+                                        "qElemNo": 7
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Sportwear",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 2,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "[[[0,-1],[2,-2],[4,-2],[6,-2]]]",
+                                        "qNum": "NaN"
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Sportwear",
+                                        "qElemNo": 2
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "Womens wear",
+                                  "qNum": "NaN",
+                                  "qElemNumber": 1,
+                                  "qState": "O",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "[[[0,-2],[2,-1],[4,-1],[6,-1]]]",
+                                        "qNum": "NaN"
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qText": "Womens wear",
+                                        "qElemNo": 1
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              [
+                                {
+                                  "qText": "-",
+                                  "qNum": "NaN",
+                                  "qElemNumber": -2,
+                                  "qState": "L",
+                                  "qAttrExps": {
+                                    "qValues": [
+                                      {
+                                        "qText": "[[[,-1]]]",
+                                        "qNum": "NaN"
+                                      }
+                                    ]
+                                  },
+                                  "qAttrDims": {
+                                    "qValues": [
+                                      {
+                                        "qElemNo": -2
+                                      }
+                                    ]
+                                  },
+                                  "qIsNull": true
+                                }
+                              ]
+                            ],
+                            "qTails": [
+                              {
+                                "qUp": 0,
+                                "qDown": 0
+                              }
+                            ],
+                            "qArea": {
+                              "qLeft": 0,
+                              "qTop": 0,
+                              "qWidth": 1,
+                              "qHeight": 9
+                            }
+                          }
+                        ],
+                        "qPivotDataPages": [],
+                        "qStackedDataPages": [],
+                        "qMode": "S",
+                        "qNoOfLeftDims": -1,
+                        "qTreeNodesOnDim": [],
+                        "qColumnOrder": []
+                      },
+                      "color": {
+                        "outline": {
+                          "index": -1,
+                          "color": "#7b7a78"
+                        },
+                        "outlineOpacity": 1,
+                        "opacity": 0.5,
+                        "auto": false,
+                        "mode": "byDimension",
+                        "paletteColor": {
+                          "index": 9,
+                          "color": "#ffffff"
+                        },
+                        "measureScheme": "sg",
+                        "dimensionScheme": "12",
+                        "colorExpression": "",
+                        "expressionIsColor": true,
+                        "measureMin": 0,
+                        "measureMax": 10,
+                        "useDimColVal": true,
+                        "useMeasureGradient": false,
+                        "altLabel": "CategoryRank",
+                        "byDimDef": {
+                          "label": "CategoryRank",
+                          "key": "WrdwdGm",
+                          "type": "libraryItem"
+                        },
+                        "persistent": true
+                      }
+                    }
+                  ]
+                },
+                "containerChildId": "ZJNw",
+                "snapshotData": {
+                  "object": {
+                    "size": {
+                      "w": 921,
+                      "h": 839
+                    }
+                  },
+                  "rtl": false,
+                  "viewFocus": {
+                    "bounds": {
+                      "min": [
+                        -9.4,
+                        -2.3300357568533974
+                      ],
+                      "max": [
+                        -0.5999999999999996,
+                        7.330035756853397
+                      ]
+                    }
+                  },
+                  "layers": {
+                    "wyypqDV": {
+                      "visible": true,
+                      "colorSnapshotData": {}
+                    },
+                    "qaGgrp": {
+                      "visible": true,
+                      "colorSnapshotData": {}
+                    },
+                    "LMRDMK": {
+                      "visible": true,
+                      "colorSnapshotData": {
+                        "dimValsData": {
+                          "colors": [
+                            {
+                              "value": "Babywear",
+                              "baseColor": {
+                                "color": "#F0D1D6",
+                                "index": -1
+                              }
+                            },
+                            {
+                              "value": "Bath Clothes",
+                              "baseColor": {
+                                "color": "#B8D6C2",
+                                "index": -1
+                              }
+                            },
+                            {
+                              "value": "Children´s wear",
+                              "baseColor": {
+                                "color": "#F5F0D6",
+                                "index": -1
+                              }
+                            },
+                            {
+                              "value": "Ladies´Footwear",
+                              "baseColor": {
+                                "color": "#E1E1C2",
+                                "index": -1
+                              }
+                            },
+                            {
+                              "value": "Men´s Clothes",
+                              "baseColor": {
+                                "color": "#C2BDDB",
+                                "index": -1
+                              }
+                            },
+                            {
+                              "value": "Men´s Footwear",
+                              "baseColor": {
+                                "color": "#E6C7E1",
+                                "index": -1
+                              }
+                            },
+                            {
+                              "value": "Sportwear",
+                              "baseColor": {
+                                "color": "#DBF0FA",
+                                "index": -1
+                              }
+                            },
+                            {
+                              "value": "Womens wear",
+                              "baseColor": {
+                                "color": "#C7E6E1",
+                                "index": -1
+                              }
+                            }
+                          ],
+                          "nul": null,
+                          "oth": null,
+                          "pal": null,
+                          "single": null,
+                          "usePal": true,
+                          "autoFill": true
+                        }
+                      }
+                    },
+                    "aYwBj": {
+                      "visible": true,
+                      "colorSnapshotData": {
+                        "dimValsData": {
+                          "colors": [
+                            {
+                              "value": "Babywear",
+                              "baseColor": {
+                                "color": "#F0D1D6",
+                                "index": -1
+                              }
+                            },
+                            {
+                              "value": "Bath Clothes",
+                              "baseColor": {
+                                "color": "#B8D6C2",
+                                "index": -1
+                              }
+                            },
+                            {
+                              "value": "Children´s wear",
+                              "baseColor": {
+                                "color": "#F5F0D6",
+                                "index": -1
+                              }
+                            },
+                            {
+                              "value": "Ladies´Footwear",
+                              "baseColor": {
+                                "color": "#E1E1C2",
+                                "index": -1
+                              }
+                            },
+                            {
+                              "value": "Men´s Clothes",
+                              "baseColor": {
+                                "color": "#C2BDDB",
+                                "index": -1
+                              }
+                            },
+                            {
+                              "value": "Men´s Footwear",
+                              "baseColor": {
+                                "color": "#E6C7E1",
+                                "index": -1
+                              }
+                            },
+                            {
+                              "value": "Sportwear",
+                              "baseColor": {
+                                "color": "#DBF0FA",
+                                "index": -1
+                              }
+                            },
+                            {
+                              "value": "Womens wear",
+                              "baseColor": {
+                                "color": "#C7E6E1",
+                                "index": -1
+                              }
+                            }
+                          ],
+                          "nul": null,
+                          "oth": null,
+                          "pal": null,
+                          "single": null,
+                          "usePal": true,
+                          "autoFill": true
+                        }
+                      }
+                    }
+                  },
+                  "parent": {
+                    "h": 923,
+                    "w": 1920
+                  }
+                },
+                "visualizationType": "map",
+                "sourceObjectId": "b6513795-e2c8-47cc-bca1-fce3ac61bf52",
+                "sheetId": "accc3561-5d82-4565-8211-ef90e1bdc457",
+                "timestamp": 1579005172580,
+                "isClone": false,
+                "supportExport": true,
+                "background": {
+                  "layers": [
+                    {
+                      "type": "XYZ",
+                      "urls": [
+                        "http://tile.openstreetmap.org/${z}/${x}/${y}.png"
+                      ],
+                      "attribution": "© OpenStreetMap @[http://www.openstreetmap.org/copyright](License)"
+                    }
+                  ],
+                  "show": false,
+                  "defaultMapService": false
+                }
+              },
+              "qBookmark": {
+                "qStateData": [
+                  {
+                    "qStateName": "$",
+                    "qFieldItems": []
+                  },
+                  {
+                    "qStateName": "SheetState",
+                    "qFieldItems": []
+                  },
+                  {
+                    "qStateName": "State1",
+                    "qFieldItems": []
+                  },
+                  {
+                    "qStateName": "State2",
+                    "qFieldItems": []
+                  },
+                  {
+                    "qStateName": "Cust1",
+                    "qFieldItems": []
+                  },
+                  {
+                    "qStateName": "Cust2",
+                    "qFieldItems": []
+                  },
+                  {
+                    "qStateName": "Cust3",
+                    "qFieldItems": []
+                  }
+                ],
+                "qUtcModifyTime": 43844.56449074074,
+                "qVariableItems": [],
+                "qPatches": []
+              },
+              "qClassicBookmark": {
+                "qUtcModifyTime": 0,
+                "qUtcRecallTime": 0,
+                "qRecallCount": 0,
+                "qFieldItems": [],
+                "qVariableItems": [],
+                "qObjects": [],
+                "qGroups": [],
+                "qShow": {
+                  "qAlways": true,
+                  "qExpression": {}
+                },
+                "qApplyInputFieldValues": true,
+                "qInputFieldItems": [],
+                "qObjectsLayout": [],
+                "qIncludeSelectionState": true,
+                "qAlternateStateData": []
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

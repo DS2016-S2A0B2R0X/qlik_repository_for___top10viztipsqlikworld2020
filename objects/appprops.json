@@ -1,0 +1,24 @@
+[
+  {
+    "qProperty": {
+      "qInfo": {
+        "qId": "147a2fdf-b18f-4809-abf2-0ce2ca010bde",
+        "qType": "appprops"
+      },
+      "qMetaDef": {},
+      "sheetTitleBgColor": "",
+      "sheetTitleGradientColor": "",
+      "sheetTitleColor": "",
+      "sheetLogoThumbnail": {
+        "qStaticContentUrlDef": {
+          "qUrl": "/media/Idevio/Qlik-Logo_TAG_Right_RGB.png"
+        }
+      },
+      "sheetLogoPosition": "",
+      "rtl": false,
+      "theme": "sense",
+      "defaultBookmarkId": null
+    },
+    "qChildren": []
+  }
+]

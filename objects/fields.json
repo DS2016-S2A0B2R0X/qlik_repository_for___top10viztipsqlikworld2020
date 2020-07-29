@@ -1,0 +1,1388 @@
+[
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Field",
+    "qCardinal": 119,
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$key",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$FieldNo",
+    "qCardinal": 38,
+    "qTags": [
+      "$hidden",
+      "$system",
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Fields",
+    "qCardinal": 10,
+    "qTags": [
+      "$hidden",
+      "$system",
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Info",
+    "qCardinal": 1,
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Rows",
+    "qCardinal": 16,
+    "qTags": [
+      "$hidden",
+      "$system",
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Table",
+    "qCardinal": 22,
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$key",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qName": "A",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "ScatterJitter"
+    ]
+  },
+  {
+    "qName": "Ability to execute",
+    "qCardinal": 65,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GartnerData"
+    ]
+  },
+  {
+    "qName": "Active",
+    "qCardinal": 130,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "cases"
+    ]
+  },
+  {
+    "qName": "Address",
+    "qCardinal": 90,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "SalesData"
+    ]
+  },
+  {
+    "qName": "B",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "ScatterJitter"
+    ]
+  },
+  {
+    "qName": "COS",
+    "qCardinal": 2140,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "SalesData"
+    ]
+  },
+  {
+    "qName": "C_Country",
+    "qCardinal": 1,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "cases"
+    ]
+  },
+  {
+    "qName": "CaseDate",
+    "qCardinal": 139,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "cases"
+    ]
+  },
+  {
+    "qName": "CategoryID",
+    "qCardinal": 8,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SalesData"
+    ]
+  },
+  {
+    "qName": "CategoryID2",
+    "qCardinal": 8,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "cat"
+    ]
+  },
+  {
+    "qName": "CategoryName",
+    "qCardinal": 8,
+    "qTags": [
+      "$text",
+      "$key"
+    ],
+    "qSrcTables": [
+      "ScatterJitter",
+      "SalesData"
+    ]
+  },
+  {
+    "qName": "CategoryName2",
+    "qCardinal": 8,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "cat"
+    ]
+  },
+  {
+    "qName": "CategoryYear",
+    "qCardinal": 32,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "SalesData"
+    ]
+  },
+  {
+    "qName": "City",
+    "qCardinal": 69,
+    "qTags": [
+      "$text",
+      "$geoname",
+      "$relates_SalesData.City_GeoInfo"
+    ],
+    "qSrcTables": [
+      "SalesData"
+    ]
+  },
+  {
+    "qName": "Complaints",
+    "qCardinal": 17,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "car-5"
+    ]
+  },
+  {
+    "qName": "Completeness of vision",
+    "qCardinal": 65,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GartnerData"
+    ]
+  },
+  {
+    "qName": "Confirmed",
+    "qCardinal": 134,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "cases"
+    ]
+  },
+  {
+    "qName": "ContactName",
+    "qCardinal": 90,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "SalesData"
+    ]
+  },
+  {
+    "qName": "Country",
+    "qCardinal": 21,
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$key",
+      "$geoname",
+      "$relates_SalesData.Country_GeoInfo"
+    ],
+    "qSrcTables": [
+      "perf",
+      "SalesData"
+    ]
+  },
+  {
+    "qName": "Customer",
+    "qCardinal": 90,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "SalesData"
+    ]
+  },
+  {
+    "qName": "CustomerID",
+    "qCardinal": 90,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SalesData"
+    ]
+  },
+  {
+    "qName": "Day",
+    "qCardinal": 139,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "days"
+    ]
+  },
+  {
+    "qName": "Deaths",
+    "qCardinal": 83,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "cases"
+    ]
+  },
+  {
+    "qName": "DeathsR0",
+    "qCardinal": 65,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "cases"
+    ]
+  },
+  {
+    "qName": "Description",
+    "qCardinal": 8,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "SalesData"
+    ]
+  },
+  {
+    "qName": "Discount",
+    "qCardinal": 829,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "SalesData"
+    ]
+  },
+  {
+    "qName": "EmployeeID",
+    "qCardinal": 9,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SalesData"
+    ]
+  },
+  {
+    "qName": "Fax",
+    "qCardinal": 68,
+    "qTags": [],
+    "qSrcTables": [
+      "SalesData"
+    ]
+  },
+  {
+    "qName": "Freight",
+    "qCardinal": 783,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "SalesData"
+    ]
+  },
+  {
+    "qName": "GP",
+    "qCardinal": 2149,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "SalesData"
+    ]
+  },
+  {
+    "qName": "GartnerColor",
+    "qCardinal": 4,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "GartnerColors"
+    ]
+  },
+  {
+    "qName": "GartnerLabel",
+    "qCardinal": 4,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "GartnerLabels"
+    ]
+  },
+  {
+    "qName": "GartnerType",
+    "qCardinal": 4,
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$key"
+    ],
+    "qSrcTables": [
+      "GartnerData",
+      "GartnerColors"
+    ]
+  },
+  {
+    "qName": "GartnerYear",
+    "qCardinal": 10,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GartnerData"
+    ]
+  },
+  {
+    "qName": "Key",
+    "qCardinal": 139,
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$key"
+    ],
+    "qSrcTables": [
+      "days",
+      "cases"
+    ]
+  },
+  {
+    "qName": "Market",
+    "qCardinal": 2,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "SalesData"
+    ]
+  },
+  {
+    "qName": "Month",
+    "qCardinal": 12,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "SalesData"
+    ]
+  },
+  {
+    "qName": "NewCases",
+    "qCardinal": 99,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "cases"
+    ]
+  },
+  {
+    "qName": "NewDeaths",
+    "qCardinal": 50,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "cases"
+    ]
+  },
+  {
+    "qName": "NewRecovered",
+    "qCardinal": 113,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "cases"
+    ]
+  },
+  {
+    "qName": "OrderDate",
+    "qCardinal": 1348,
+    "qTags": [
+      "$key",
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "TempCalendar",
+      "SalesData"
+    ]
+  },
+  {
+    "qName": "OrderDateWith",
+    "qCardinal": 548,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "SalesData"
+    ]
+  },
+  {
+    "qName": "OrderID",
+    "qCardinal": 836,
+    "qTags": [
+      "$key",
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SalesData",
+      "cat"
+    ]
+  },
+  {
+    "qName": "Phone",
+    "qCardinal": 90,
+    "qTags": [],
+    "qSrcTables": [
+      "SalesData"
+    ]
+  },
+  {
+    "qName": "PostalCode",
+    "qCardinal": 82,
+    "qTags": [],
+    "qSrcTables": [
+      "SalesData"
+    ]
+  },
+  {
+    "qName": "ProdTree",
+    "qCardinal": 78,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "SalesData"
+    ]
+  },
+  {
+    "qName": "ProductID",
+    "qCardinal": 77,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SalesData"
+    ]
+  },
+  {
+    "qName": "ProductName",
+    "qCardinal": 77,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "SalesData"
+    ]
+  },
+  {
+    "qName": "Products",
+    "qCardinal": 1,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "ScatterJitter"
+    ]
+  },
+  {
+    "qName": "Profit",
+    "qCardinal": 2172,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "SalesData"
+    ]
+  },
+  {
+    "qName": "Quantity",
+    "qCardinal": 56,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SalesData"
+    ]
+  },
+  {
+    "qName": "Quarter",
+    "qCardinal": 4,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "SalesData"
+    ]
+  },
+  {
+    "qName": "Recovered",
+    "qCardinal": 136,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "cases"
+    ]
+  },
+  {
+    "qName": "Sales",
+    "qCardinal": 2113,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "SalesData"
+    ]
+  },
+  {
+    "qIsHidden": true,
+    "qName": "SalesData.City_GeoInfo",
+    "qCardinal": 65,
+    "qTags": [
+      "$geopoint",
+      "$ascii",
+      "$text",
+      "$hidden",
+      "$relates_City"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qName": "SalesData.Country_GeoInfo",
+    "qCardinal": 22,
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$hidden",
+      "$geopolygon",
+      "$relates_Country"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qName": "ShipperID",
+    "qCardinal": 3,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SalesData"
+    ]
+  },
+  {
+    "qName": "SupplierID",
+    "qCardinal": 29,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SalesData"
+    ]
+  },
+  {
+    "qName": "Target",
+    "qCardinal": 2144,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "SalesData"
+    ]
+  },
+  {
+    "qName": "TotalScore",
+    "qCardinal": 200,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GartnerData"
+    ]
+  },
+  {
+    "qName": "Vendor",
+    "qCardinal": 42,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "GartnerData"
+    ]
+  },
+  {
+    "qName": "Year",
+    "qCardinal": 4,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SalesData"
+    ]
+  },
+  {
+    "qName": "YearMonth",
+    "qCardinal": 46,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "SalesData"
+    ]
+  },
+  {
+    "qName": "YearOffset",
+    "qCardinal": 4,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "SalesData"
+    ]
+  },
+  {
+    "qName": "apple_period",
+    "qCardinal": 78,
+    "qTags": [
+      "$key",
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "streamdata",
+      "streamyear"
+    ]
+  },
+  {
+    "qName": "apple_product",
+    "qCardinal": 5,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "streamdata"
+    ]
+  },
+  {
+    "qName": "apple_sales",
+    "qCardinal": 206,
+    "qTags": [],
+    "qSrcTables": [
+      "streamdata"
+    ]
+  },
+  {
+    "qName": "apple_time",
+    "qCardinal": 78,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "streamdata"
+    ]
+  },
+  {
+    "qName": "apple_year",
+    "qCardinal": 21,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "streamyear"
+    ]
+  },
+  {
+    "qName": "b_color",
+    "qCardinal": 25,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Brazil2018"
+    ]
+  },
+  {
+    "qName": "b_leader",
+    "qCardinal": 25,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Brazil2018"
+    ]
+  },
+  {
+    "qName": "b_link",
+    "qCardinal": 25,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Brazil2018"
+    ]
+  },
+  {
+    "qName": "b_name",
+    "qCardinal": 25,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Brazil2018"
+    ]
+  },
+  {
+    "qName": "b_nr_of_seats",
+    "qCardinal": 20,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Brazil2018"
+    ]
+  },
+  {
+    "qName": "b_party",
+    "qCardinal": 25,
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Brazil2018",
+      "BrazilRepr"
+    ]
+  },
+  {
+    "qName": "b_politicalorder",
+    "qCardinal": 14,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "PoliticalOrder"
+    ]
+  },
+  {
+    "qName": "b_politicalposition",
+    "qCardinal": 14,
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Brazil2018",
+      "PoliticalOrder"
+    ]
+  },
+  {
+    "qName": "b_position",
+    "qCardinal": 3,
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Brazil2018",
+      "BrazilPositionOrder"
+    ]
+  },
+  {
+    "qName": "b_position_order",
+    "qCardinal": 3,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "BrazilPositionOrder"
+    ]
+  },
+  {
+    "qName": "b_seat",
+    "qCardinal": 513,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "BrazilRepr"
+    ]
+  },
+  {
+    "qName": "credit/link/text",
+    "qCardinal": 1,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "yr_cred"
+    ]
+  },
+  {
+    "qName": "credit/link/url",
+    "qCardinal": 4,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "yr_cred"
+    ]
+  },
+  {
+    "qName": "from",
+    "qCardinal": 60,
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "yr"
+    ]
+  },
+  {
+    "qName": "gx",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GartnerLabels"
+    ]
+  },
+  {
+    "qName": "gy",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "GartnerLabels"
+    ]
+  },
+  {
+    "qName": "location/country",
+    "qCardinal": 4,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "yr_cred"
+    ]
+  },
+  {
+    "qName": "location/location/altitude",
+    "qCardinal": 3,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "yr_cred"
+    ]
+  },
+  {
+    "qName": "location/location/latitude",
+    "qCardinal": 4,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "yr_cred"
+    ]
+  },
+  {
+    "qName": "location/location/longitude",
+    "qCardinal": 4,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "yr_cred"
+    ]
+  },
+  {
+    "qName": "location/type",
+    "qCardinal": 3,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "yr_cred"
+    ]
+  },
+  {
+    "qName": "metcity",
+    "qCardinal": 4,
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$key"
+    ],
+    "qSrcTables": [
+      "yr_cities",
+      "yr",
+      "yr_cred"
+    ],
+    "qAlwaysOneSelected": true
+  },
+  {
+    "qName": "meteo_id",
+    "qCardinal": 48,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "yr"
+    ]
+  },
+  {
+    "qName": "meturl",
+    "qCardinal": 4,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "yr_cities"
+    ]
+  },
+  {
+    "qName": "part_geometry",
+    "qCardinal": 17,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "car"
+    ]
+  },
+  {
+    "qName": "part_id",
+    "qCardinal": 17,
+    "qTags": [
+      "$key",
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "car",
+      "car-5"
+    ]
+  },
+  {
+    "qName": "part_name",
+    "qCardinal": 17,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "car"
+    ]
+  },
+  {
+    "qName": "perf",
+    "qCardinal": 21,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "perf"
+    ]
+  },
+  {
+    "qName": "precipitation/value",
+    "qCardinal": 13,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "yr"
+    ]
+  },
+  {
+    "qName": "pressure/unit",
+    "qCardinal": 1,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "yr"
+    ]
+  },
+  {
+    "qName": "pressure/value",
+    "qCardinal": 92,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "yr"
+    ]
+  },
+  {
+    "qName": "stockclose",
+    "qCardinal": 13,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "stock"
+    ]
+  },
+  {
+    "qName": "stockdate",
+    "qCardinal": 13,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "stock"
+    ]
+  },
+  {
+    "qName": "stockday",
+    "qCardinal": 13,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "stock"
+    ]
+  },
+  {
+    "qName": "stockhigh",
+    "qCardinal": 13,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "stock"
+    ]
+  },
+  {
+    "qName": "stocklow",
+    "qCardinal": 13,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "stock"
+    ]
+  },
+  {
+    "qName": "stockname",
+    "qCardinal": 1,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "stock"
+    ]
+  },
+  {
+    "qName": "stockopen",
+    "qCardinal": 13,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "stock"
+    ]
+  },
+  {
+    "qName": "symbol/name",
+    "qCardinal": 7,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "yr"
+    ]
+  },
+  {
+    "qName": "symbol/number",
+    "qCardinal": 6,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "yr"
+    ]
+  },
+  {
+    "qName": "symbol/numberEx",
+    "qCardinal": 7,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "yr"
+    ]
+  },
+  {
+    "qName": "symbol/var",
+    "qCardinal": 10,
+    "qTags": [],
+    "qSrcTables": [
+      "yr"
+    ]
+  },
+  {
+    "qName": "temperature/unit",
+    "qCardinal": 1,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "yr"
+    ]
+  },
+  {
+    "qName": "temperature/value",
+    "qCardinal": 21,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "yr"
+    ]
+  },
+  {
+    "qName": "to",
+    "qCardinal": 60,
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "yr"
+    ]
+  },
+  {
+    "qName": "windDirection/code",
+    "qCardinal": 16,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "yr"
+    ]
+  },
+  {
+    "qName": "windDirection/deg",
+    "qCardinal": 181,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "yr"
+    ]
+  },
+  {
+    "qName": "windDirection/name",
+    "qCardinal": 16,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "yr"
+    ]
+  },
+  {
+    "qName": "windSpeed/mps",
+    "qCardinal": 86,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "yr"
+    ]
+  },
+  {
+    "qName": "windSpeed/name",
+    "qCardinal": 8,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "yr"
+    ]
+  }
+]

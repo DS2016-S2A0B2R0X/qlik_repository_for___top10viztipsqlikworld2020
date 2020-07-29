@@ -1,0 +1,12 @@
+{
+  "qTitle": "__Top 10 Viz Tips QlikWorld 2020",
+  "qLastReloadTime": "2020-06-09T07:25:40.865Z",
+  "qMigrationHash": "504d4e39a7133ee172fbe29aa58348b1e4054149",
+  "qSavedInProductVersion": "12.602.2",
+  "qThumbnail": {
+    "qUrl": "/media/Idevio/top10viz20.png"
+  },
+  "description": "At QlikWorld 2020 I hosted a session called \"Top 10 Visualization tips\". Here's the app I used with all tips including test data. More details in app and load script.",
+  "dynamicColor": "hsla(19,18%,43%,1)",
+  "hassectionaccess": false
+}

@@ -1,0 +1,1256 @@
+{
+  "qInfos": [
+    {
+      "qId": "01b378af-3dd2-404a-a5ce-eaca60c78fe6",
+      "qType": "sheet"
+    },
+    {
+      "qId": "02d152aa-bb96-47e8-8515-c337ebe51aaf",
+      "qType": "masterobject"
+    },
+    {
+      "qId": "07514a41-4589-4f69-9409-4e6914a37c69",
+      "qType": "masterobject"
+    },
+    {
+      "qId": "088a0487-38db-4b12-8205-a461a8baa8bc",
+      "qType": "linechart"
+    },
+    {
+      "qId": "0a5ecc45-a910-47ab-afd3-ab9554c2816d",
+      "qType": "story"
+    },
+    {
+      "qId": "0e10f694-f3f3-4b1d-a40b-14475e757bf6",
+      "qType": "snapshot"
+    },
+    {
+      "qId": "12f74910-030c-430a-9295-a67235ab1154",
+      "qType": "sheet"
+    },
+    {
+      "qId": "147a2fdf-b18f-4809-abf2-0ce2ca010bde",
+      "qType": "appprops"
+    },
+    {
+      "qId": "1a042721-3bab-46f8-bba8-b392343e1af1",
+      "qType": "snapshot"
+    },
+    {
+      "qId": "1c392518-abf0-4314-aa9c-a7b356c2d153",
+      "qType": "sheet"
+    },
+    {
+      "qId": "1f03c222-75df-4057-bbf2-45b0d9fd7e41",
+      "qType": "sheet"
+    },
+    {
+      "qId": "21365926-25cb-45a6-8166-0129fbd5a20c",
+      "qType": "scatterplot"
+    },
+    {
+      "qId": "215560d3-4029-4434-a88e-c4eb5c8d9c57",
+      "qType": "masterobject"
+    },
+    {
+      "qId": "269427ed-b0a3-40a2-8309-0f7af7d9d304",
+      "qType": "masterobject"
+    },
+    {
+      "qId": "29085223-700d-40a6-9ac7-62e1469fad9f",
+      "qType": "text-image"
+    },
+    {
+      "qId": "295c5837-1fb7-4c46-9889-39b7357827c6",
+      "qType": "qlik-button-for-navigation"
+    },
+    {
+      "qId": "2a783d72-559b-4b75-9256-44149f981b2c",
+      "qType": "sheet"
+    },
+    {
+      "qId": "2dc40385-3971-4a13-b8af-fc2efe0390e0",
+      "qType": "sheet"
+    },
+    {
+      "qId": "318c589d-2b40-489e-b279-290a35927140",
+      "qType": "bookmark"
+    },
+    {
+      "qId": "31da6885-96dd-408c-9df1-753b1fb1869c",
+      "qType": "masterobject"
+    },
+    {
+      "qId": "3607f362-a5bd-4058-8c75-9d2d309feb89",
+      "qType": "masterobject"
+    },
+    {
+      "qId": "38cc6343-96ac-4503-839b-0d83bc532346",
+      "qType": "bookmark"
+    },
+    {
+      "qId": "3a7a96fd-28b8-40ff-8803-ac67b5adcc2c",
+      "qType": "sheet"
+    },
+    {
+      "qId": "3b0a267e-928a-4653-9776-c38763f285b2",
+      "qType": "masterobject"
+    },
+    {
+      "qId": "3b621b29-a6c1-4ce6-849a-0d8d0ad332c3",
+      "qType": "masterobject"
+    },
+    {
+      "qId": "3e6bf69e-7b9f-49d6-9877-19a7a8da48db",
+      "qType": "masterobject"
+    },
+    {
+      "qId": "3eae788b-3bc8-4cfe-bf77-7ff25088ebec",
+      "qType": "masterobject"
+    },
+    {
+      "qId": "403a9a59-a7f7-4dec-b97b-9d1f0857f80a",
+      "qType": "sheet"
+    },
+    {
+      "qId": "42a5686e-989e-4ee3-be43-97fa535c8816",
+      "qType": "sheet"
+    },
+    {
+      "qId": "43076472-cbf7-4292-981d-4166693728e7",
+      "qType": "map"
+    },
+    {
+      "qId": "467226f5-5f57-40f5-a7bc-3c766c0b9035",
+      "qType": "table"
+    },
+    {
+      "qId": "48a558bb-3b7f-413e-9bec-4134dcbded87",
+      "qType": "sheet"
+    },
+    {
+      "qId": "4a357069-67ba-4dc7-a7c2-66f25b5d21e1",
+      "qType": "text-image"
+    },
+    {
+      "qId": "4e600f9d-3aac-4aac-ba09-897f9ed0722b",
+      "qType": "sheet"
+    },
+    {
+      "qId": "5019dc87-b4a7-4cd7-834e-a05dc4c3876f",
+      "qType": "snapshot"
+    },
+    {
+      "qId": "5377b87c-afec-4878-982a-ab2e007b6374",
+      "qType": "kpi"
+    },
+    {
+      "qId": "58a08950-046e-4d71-9456-d9db393c7c04",
+      "qType": "sheet"
+    },
+    {
+      "qId": "5c4b7f12-26bf-41af-b36e-dd340cbe73b6",
+      "qType": "masterobject"
+    },
+    {
+      "qId": "5e582c81-982c-4eb6-b16f-35e85ab7d8d6",
+      "qType": "bookmark"
+    },
+    {
+      "qId": "60ad3154-d602-45af-bed4-fdc154fd794c",
+      "qType": "text-image"
+    },
+    {
+      "qId": "627a5d4d-91e4-451a-95b4-413f5284060b",
+      "qType": "sheet"
+    },
+    {
+      "qId": "63e6c858-d31f-48df-9271-da34055415de",
+      "qType": "sheet"
+    },
+    {
+      "qId": "63f8725f-aa82-4849-a861-5185beb1f5ff",
+      "qType": "table"
+    },
+    {
+      "qId": "6527e47f-31fa-495d-bb9c-3447d58e2571",
+      "qType": "text-image"
+    },
+    {
+      "qId": "67e9f2c9-ff2e-4471-b02f-ec53fa73ba7a",
+      "qType": "masterobject"
+    },
+    {
+      "qId": "694687fe-553b-4332-8a1c-78971c3aeed3",
+      "qType": "idevioanimator"
+    },
+    {
+      "qId": "69d87dbe-1023-40eb-9903-312d9ffef676",
+      "qType": "sheet"
+    },
+    {
+      "qId": "6ff70e84-83e3-46f0-87f2-0f7f0f2e9b5e",
+      "qType": "qlik-button-for-navigation"
+    },
+    {
+      "qId": "71b28bfd-4fcc-4f1d-a16f-f557a0274491",
+      "qType": "masterobject"
+    },
+    {
+      "qId": "74068097-a971-4139-8d0b-9b3b45dc2edb",
+      "qType": "masterobject"
+    },
+    {
+      "qId": "742fc433-d751-45ce-b22c-f59b8fdd65f3",
+      "qType": "measure"
+    },
+    {
+      "qId": "744b0fd9-b834-4647-b257-68b5e596ce54",
+      "qType": "sheet"
+    },
+    {
+      "qId": "74c117d6-4d31-474f-be29-05c5eccc9180",
+      "qType": "bookmark"
+    },
+    {
+      "qId": "755b543d-0a95-4520-a069-7b1104407f03",
+      "qType": "measure"
+    },
+    {
+      "qId": "757b324a-0c01-469e-9491-36ea265475f5",
+      "qType": "barchart"
+    },
+    {
+      "qId": "7a81758b-a665-4411-bdd2-83577deeed7a",
+      "qType": "measure"
+    },
+    {
+      "qId": "7b9f2721-3242-477e-97d2-c2f701d7eebd",
+      "qType": "barchart"
+    },
+    {
+      "qId": "7f597572-75c7-4200-8eda-3a647c377d98",
+      "qType": "map"
+    },
+    {
+      "qId": "8055e643-09af-4df4-b537-c3667d071d34",
+      "qType": "sheet"
+    },
+    {
+      "qId": "823c0707-1de9-4988-b18a-caa6bcd62716",
+      "qType": "sheet"
+    },
+    {
+      "qId": "83da2741-0cc7-44f3-8acf-2a4541dfd3f7",
+      "qType": "snapshot"
+    },
+    {
+      "qId": "84827199-ea0c-46a5-a8b7-551b9fb20090",
+      "qType": "sheet"
+    },
+    {
+      "qId": "8965ee48-da58-4a6d-a1a7-165215f81579",
+      "qType": "bookmark"
+    },
+    {
+      "qId": "89fcd65a-b920-44df-a317-18db1e24cfa5",
+      "qType": "sheet"
+    },
+    {
+      "qId": "8d5f9da8-eb52-496e-995e-ca4febe1103f",
+      "qType": "bookmark"
+    },
+    {
+      "qId": "8e92a66c-d36f-4037-a28e-af8cb37443bb",
+      "qType": "sheet"
+    },
+    {
+      "qId": "905233fe-e268-47e9-b55b-353caa52617f",
+      "qType": "map"
+    },
+    {
+      "qId": "90e33a46-1968-4011-8edc-b05fa473b1f4",
+      "qType": "sheet"
+    },
+    {
+      "qId": "934ffc65-cd85-44ef-9294-27d7203b9d5c",
+      "qType": "text-image"
+    },
+    {
+      "qId": "93fe7fcc-431a-446a-8030-b1020c29cc77",
+      "qType": "sheet"
+    },
+    {
+      "qId": "9534ee0f-784e-4a13-a9b5-beae575bf68c",
+      "qType": "sheet"
+    },
+    {
+      "qId": "988ebf5e-4c72-4dd9-bb22-9a01a2a4b04a",
+      "qType": "masterobject"
+    },
+    {
+      "qId": "9b7d646b-ae7c-41f4-8f7f-e139e3fe752b",
+      "qType": "masterobject"
+    },
+    {
+      "qId": "9c3d3c95-db61-491a-946d-66d51021ede3",
+      "qType": "snapshot"
+    },
+    {
+      "qId": "9e77c369-5b7c-4e8a-bfd2-1f8b7d730229",
+      "qType": "sheet"
+    },
+    {
+      "qId": "AFjPJQx",
+      "qType": "idevioanimator"
+    },
+    {
+      "qId": "BCyXj",
+      "qType": "measure"
+    },
+    {
+      "qId": "BEnhsJ",
+      "qType": "text-image"
+    },
+    {
+      "qId": "BLhEBq",
+      "qType": "qlik-variable-input"
+    },
+    {
+      "qId": "BYkdEM",
+      "qType": "map"
+    },
+    {
+      "qId": "BmJMnw",
+      "qType": "dimension"
+    },
+    {
+      "qId": "CRRGxg",
+      "qType": "table"
+    },
+    {
+      "qId": "CdMLvQU",
+      "qType": "text-image"
+    },
+    {
+      "qId": "ColorMapModel_BmJMnw",
+      "qType": "ColorMap"
+    },
+    {
+      "qId": "ColorMapModel_SGNnYZ",
+      "qType": "ColorMap"
+    },
+    {
+      "qId": "ColorMapModel_WrdwdGm",
+      "qType": "ColorMap"
+    },
+    {
+      "qId": "ColorMapModel_beefvka",
+      "qType": "ColorMap"
+    },
+    {
+      "qId": "ColorMapModel_jpFfu",
+      "qType": "ColorMap"
+    },
+    {
+      "qId": "ColorMapModel_mfkPpTm",
+      "qType": "ColorMap"
+    },
+    {
+      "qId": "CuZRkRg",
+      "qType": "text-image"
+    },
+    {
+      "qId": "DPJzv",
+      "qType": "text-image"
+    },
+    {
+      "qId": "DVBdK",
+      "qType": "measure"
+    },
+    {
+      "qId": "EBsmDG",
+      "qType": "text-image"
+    },
+    {
+      "qId": "EZVybD",
+      "qType": "mekkochart"
+    },
+    {
+      "qId": "EcFHdZ",
+      "qType": "combochart"
+    },
+    {
+      "qId": "EcFvVN",
+      "qType": "text-image"
+    },
+    {
+      "qId": "EcVaDRj",
+      "qType": "measure"
+    },
+    {
+      "qId": "EesfwBS",
+      "qType": "map"
+    },
+    {
+      "qId": "EkEHqnk",
+      "qType": "text-image"
+    },
+    {
+      "qId": "Esjb",
+      "qType": "measure"
+    },
+    {
+      "qId": "FAeHdpa",
+      "qType": "text-image"
+    },
+    {
+      "qId": "FaRd",
+      "qType": "text-image"
+    },
+    {
+      "qId": "FgQ",
+      "qType": "measure"
+    },
+    {
+      "qId": "GLmBsE",
+      "qType": "text-image"
+    },
+    {
+      "qId": "GNUzL",
+      "qType": "linechart"
+    },
+    {
+      "qId": "GPrqzx",
+      "qType": "text-image"
+    },
+    {
+      "qId": "Ghtp",
+      "qType": "map"
+    },
+    {
+      "qId": "HMFhs",
+      "qType": "text-image"
+    },
+    {
+      "qId": "HdZmNNy",
+      "qType": "text-image"
+    },
+    {
+      "qId": "HkwjLXY",
+      "qType": "barchart"
+    },
+    {
+      "qId": "HtjvPZ",
+      "qType": "piechart"
+    },
+    {
+      "qId": "HxgeYyb",
+      "qType": "text-image"
+    },
+    {
+      "qId": "JFPT",
+      "qType": "measure"
+    },
+    {
+      "qId": "JMEWn",
+      "qType": "text-image"
+    },
+    {
+      "qId": "JQrJen",
+      "qType": "kpi"
+    },
+    {
+      "qId": "JRnHLuE",
+      "qType": "qlik-button-for-navigation"
+    },
+    {
+      "qId": "JUJQta",
+      "qType": "text-image"
+    },
+    {
+      "qId": "JZLxbr",
+      "qType": "piechart"
+    },
+    {
+      "qId": "JaaajK",
+      "qType": "measure"
+    },
+    {
+      "qId": "JpCrjCp",
+      "qType": "text-image"
+    },
+    {
+      "qId": "JuHb",
+      "qType": "measure"
+    },
+    {
+      "qId": "KPWVA",
+      "qType": "measure"
+    },
+    {
+      "qId": "KQpWmVq",
+      "qType": "text-image"
+    },
+    {
+      "qId": "KTtnmUf",
+      "qType": "pivot-table"
+    },
+    {
+      "qId": "KZhrtmN",
+      "qType": "dimension"
+    },
+    {
+      "qId": "KZpyy",
+      "qType": "listbox"
+    },
+    {
+      "qId": "KjgpQh",
+      "qType": "map"
+    },
+    {
+      "qId": "Kujeh",
+      "qType": "text-image"
+    },
+    {
+      "qId": "LBgYk",
+      "qType": "qlik-variable-input"
+    },
+    {
+      "qId": "LoadModel",
+      "qType": "LoadModel"
+    },
+    {
+      "qId": "LqbhGV",
+      "qType": "text-image"
+    },
+    {
+      "qId": "LvHdPc",
+      "qType": "measure"
+    },
+    {
+      "qId": "MJgwgG",
+      "qType": "barchart"
+    },
+    {
+      "qId": "MJxmfm",
+      "qType": "table"
+    },
+    {
+      "qId": "MkrR",
+      "qType": "text-image"
+    },
+    {
+      "qId": "MsFdj",
+      "qType": "text-image"
+    },
+    {
+      "qId": "MsrcX",
+      "qType": "qlik-trellis-container"
+    },
+    {
+      "qId": "NBYjvPt",
+      "qType": "measure"
+    },
+    {
+      "qId": "NBwBvP",
+      "qType": "text-image"
+    },
+    {
+      "qId": "NGJHfJR",
+      "qType": "text-image"
+    },
+    {
+      "qId": "NRmeTW",
+      "qType": "kpi"
+    },
+    {
+      "qId": "NZmMJNP",
+      "qType": "text-image"
+    },
+    {
+      "qId": "NmBgA",
+      "qType": "qlik-button-for-navigation"
+    },
+    {
+      "qId": "PJKSjTQ",
+      "qType": "text-image"
+    },
+    {
+      "qId": "PLjm",
+      "qType": "text-image"
+    },
+    {
+      "qId": "PMLA",
+      "qType": "container"
+    },
+    {
+      "qId": "PTmNX",
+      "qType": "measure"
+    },
+    {
+      "qId": "PVpJmm",
+      "qType": "pivot-table"
+    },
+    {
+      "qId": "PZmRs",
+      "qType": "text-image"
+    },
+    {
+      "qId": "PgwHPNm",
+      "qType": "text-image"
+    },
+    {
+      "qId": "PjQeLP",
+      "qType": "measure"
+    },
+    {
+      "qId": "PmTPQV",
+      "qType": "text-image"
+    },
+    {
+      "qId": "Pphen",
+      "qType": "map"
+    },
+    {
+      "qId": "PwSgjpb",
+      "qType": "barchart"
+    },
+    {
+      "qId": "QJwjAhU",
+      "qType": "slideitem"
+    },
+    {
+      "qId": "QPQJdh",
+      "qType": "table"
+    },
+    {
+      "qId": "QTdNyAn",
+      "qType": "text-image"
+    },
+    {
+      "qId": "RLKHdUQ",
+      "qType": "scatterplot"
+    },
+    {
+      "qId": "RuDgp",
+      "qType": "qlik-trellis-container"
+    },
+    {
+      "qId": "RwQUuf",
+      "qType": "qlik-button-for-navigation"
+    },
+    {
+      "qId": "SGNnYZ",
+      "qType": "dimension"
+    },
+    {
+      "qId": "SgupDm",
+      "qType": "treemap"
+    },
+    {
+      "qId": "TSkKMPy",
+      "qType": "slide"
+    },
+    {
+      "qId": "Tmbrey",
+      "qType": "measure"
+    },
+    {
+      "qId": "UYYAdt",
+      "qType": "measure"
+    },
+    {
+      "qId": "UauwPJ",
+      "qType": "text-image"
+    },
+    {
+      "qId": "UeVRrAq",
+      "qType": "container"
+    },
+    {
+      "qId": "UuPmX",
+      "qType": "map"
+    },
+    {
+      "qId": "VJQmS",
+      "qType": "text-image"
+    },
+    {
+      "qId": "VJmGA",
+      "qType": "scatterplot"
+    },
+    {
+      "qId": "VfpMZkm",
+      "qType": "text-image"
+    },
+    {
+      "qId": "VzkpAB",
+      "qType": "text-image"
+    },
+    {
+      "qId": "WJMddq",
+      "qType": "text-image"
+    },
+    {
+      "qId": "WcdMbJP",
+      "qType": "measure"
+    },
+    {
+      "qId": "WrdwdGm",
+      "qType": "dimension"
+    },
+    {
+      "qId": "WvkKd",
+      "qType": "barchart"
+    },
+    {
+      "qId": "XewjVk",
+      "qType": "text-image"
+    },
+    {
+      "qId": "XtNaqyE",
+      "qType": "map"
+    },
+    {
+      "qId": "XvDTBu",
+      "qType": "text-image"
+    },
+    {
+      "qId": "YPSPMe",
+      "qType": "text-image"
+    },
+    {
+      "qId": "ZNDJWwm",
+      "qType": "barchart"
+    },
+    {
+      "qId": "ZPJumn",
+      "qType": "container"
+    },
+    {
+      "qId": "ZTpHA",
+      "qType": "dimension"
+    },
+    {
+      "qId": "ZZsapr",
+      "qType": "measure"
+    },
+    {
+      "qId": "ZfadtWv",
+      "qType": "text-image"
+    },
+    {
+      "qId": "a8a19bbb-67f1-401a-9c16-50f65d6d45a2",
+      "qType": "pivot-table"
+    },
+    {
+      "qId": "a8e5733b-09fe-4cca-8f7a-69b729a0360f",
+      "qType": "sheet"
+    },
+    {
+      "qId": "a9a9c1ca-e8a9-49b3-8bfc-056cf5487e1e",
+      "qType": "sheet"
+    },
+    {
+      "qId": "aANhmT",
+      "qType": "measure"
+    },
+    {
+      "qId": "aGWXkGJ",
+      "qType": "text-image"
+    },
+    {
+      "qId": "aJPP",
+      "qType": "text-image"
+    },
+    {
+      "qId": "aZfwku",
+      "qType": "text-image"
+    },
+    {
+      "qId": "ab68d307-54a3-453e-b76e-fdafe3638cb7",
+      "qType": "text-image"
+    },
+    {
+      "qId": "abd26035-8201-4896-a114-66f488ebfe6e",
+      "qType": "sheet"
+    },
+    {
+      "qId": "accc3561-5d82-4565-8211-ef90e1bdc457",
+      "qType": "sheet"
+    },
+    {
+      "qId": "adWhza",
+      "qType": "measure"
+    },
+    {
+      "qId": "b0da6fc6-658e-4134-af6c-ca92a54e4d7c",
+      "qType": "masterobject"
+    },
+    {
+      "qId": "b2692fe7-d0ed-4584-959f-2f8d1fab9195",
+      "qType": "linechart"
+    },
+    {
+      "qId": "b479f0be-b586-45fc-be8f-ab4688eac655",
+      "qType": "sheet"
+    },
+    {
+      "qId": "b50fa059-c0c8-4ec4-9cb0-db03fd703fa8",
+      "qType": "sheet"
+    },
+    {
+      "qId": "b6513795-e2c8-47cc-bca1-fce3ac61bf52",
+      "qType": "map"
+    },
+    {
+      "qId": "b7c2f03b-033a-42b6-afad-bd6dcb889591",
+      "qType": "bookmark"
+    },
+    {
+      "qId": "b91fb9a6-ed94-48dc-b694-f40fcdf5bbbf",
+      "qType": "sheet"
+    },
+    {
+      "qId": "b9eb9eed-2500-4ae2-b687-038927f21d9d",
+      "qType": "pivot-table"
+    },
+    {
+      "qId": "bb570f62-4d5c-46bb-af38-e93316874132",
+      "qType": "sheet"
+    },
+    {
+      "qId": "bd691c83-2e92-4229-9864-87c57ef30851",
+      "qType": "sheet"
+    },
+    {
+      "qId": "beefvka",
+      "qType": "dimension"
+    },
+    {
+      "qId": "bf020a44-7ec6-436f-b595-1f6db8928f00",
+      "qType": "sheet"
+    },
+    {
+      "qId": "bhvfXpG",
+      "qType": "measure"
+    },
+    {
+      "qId": "c637644c-9cb9-4ad9-94f1-d56163df0aee",
+      "qType": "sheet"
+    },
+    {
+      "qId": "c98328b4-0bcf-4430-af28-b894c28e392a",
+      "qType": "qlik-button-for-navigation"
+    },
+    {
+      "qId": "cCvGyy",
+      "qType": "piechart"
+    },
+    {
+      "qId": "cHjVCP",
+      "qType": "text-image"
+    },
+    {
+      "qId": "cVLGUQk",
+      "qType": "text-image"
+    },
+    {
+      "qId": "ca299565-7899-49bc-bf98-47af116e579a",
+      "qType": "text-image"
+    },
+    {
+      "qId": "ca8b1520-0ba6-4cbd-8b33-73db0229ef26",
+      "qType": "masterobject"
+    },
+    {
+      "qId": "cb1f933e-f014-4f84-97b5-96f26bab5461",
+      "qType": "snapshot"
+    },
+    {
+      "qId": "cb413122-0465-4dbb-a308-ad0d4dbce838",
+      "qType": "text-image"
+    },
+    {
+      "qId": "ccFRRJ",
+      "qType": "table"
+    },
+    {
+      "qId": "cd4a05cd-c27c-4e46-a2f0-bfb25501f5e7",
+      "qType": "sheet"
+    },
+    {
+      "qId": "cdARJW",
+      "qType": "measure"
+    },
+    {
+      "qId": "cedff0ce-751f-495e-b617-a83088d31d08",
+      "qType": "text-image"
+    },
+    {
+      "qId": "cjJVJP",
+      "qType": "map"
+    },
+    {
+      "qId": "d0a8b638-5470-479d-bfe3-0c7d063579e7",
+      "qType": "text-image"
+    },
+    {
+      "qId": "d583d329-9db7-4c2a-b4bb-acac3a2ce485",
+      "qType": "text-image"
+    },
+    {
+      "qId": "d66eab59-fc49-4292-85b3-c3164331c1d7",
+      "qType": "sheet"
+    },
+    {
+      "qId": "d6a97eca-0b1c-4294-a69e-f8db330af2c2",
+      "qType": "sheet"
+    },
+    {
+      "qId": "d7eaaa6c-c7a7-4c61-81df-bce56a889ed0",
+      "qType": "text-image"
+    },
+    {
+      "qId": "dRPsqF",
+      "qType": "map"
+    },
+    {
+      "qId": "dSZFjt",
+      "qType": "map"
+    },
+    {
+      "qId": "da65936d-b35c-4f24-946f-c63b8e3a30e1",
+      "qType": "bookmark"
+    },
+    {
+      "qId": "dd8f680c-de43-4a9b-8c3c-f9fd13d0a627",
+      "qType": "sheet"
+    },
+    {
+      "qId": "dfc57ad7-a689-47ca-a051-31417e81422b",
+      "qType": "bookmark"
+    },
+    {
+      "qId": "djvpzP",
+      "qType": "text-image"
+    },
+    {
+      "qId": "dthXzme",
+      "qType": "text-image"
+    },
+    {
+      "qId": "dxypfh",
+      "qType": "measure"
+    },
+    {
+      "qId": "e078abff-80b6-429b-9155-22c4b103ef4a",
+      "qType": "sheet"
+    },
+    {
+      "qId": "e4d43329-9127-415a-ad4d-87dabb95d60c",
+      "qType": "sheet"
+    },
+    {
+      "qId": "e847728b-8bd0-4c9f-a5a4-fc8216e6d241",
+      "qType": "pivot-table"
+    },
+    {
+      "qId": "eAPDpjW",
+      "qType": "measure"
+    },
+    {
+      "qId": "ecNJj",
+      "qType": "qlik-variable-input"
+    },
+    {
+      "qId": "eff63122-7615-4b8d-83ff-bf2de048e9ae",
+      "qType": "masterobject"
+    },
+    {
+      "qId": "erqpEQs",
+      "qType": "text-image"
+    },
+    {
+      "qId": "f2e8fe56-9ad6-410a-b6d0-cc30fe0320f1",
+      "qType": "masterobject"
+    },
+    {
+      "qId": "f5b28435-7db1-425a-a641-a11ce25c6b37",
+      "qType": "embeddedsnapshot"
+    },
+    {
+      "qId": "f8091a2a-8297-427d-9e99-6a41c49f4629",
+      "qType": "listbox"
+    },
+    {
+      "qId": "f8a65d1a-bd92-483f-8647-85798fbe78bc",
+      "qType": "text-image"
+    },
+    {
+      "qId": "f948a1c8-febf-4ca7-804c-09fb8ee04f0f",
+      "qType": "bookmark"
+    },
+    {
+      "qId": "f9a9c7b6-597f-41c2-b9f1-2bb079c8c676",
+      "qType": "masterobject"
+    },
+    {
+      "qId": "fCHWj",
+      "qType": "text-image"
+    },
+    {
+      "qId": "fc2ceefa-51e1-4639-8669-a62be89d6016",
+      "qType": "measure"
+    },
+    {
+      "qId": "fc7072c7-4baf-445a-8d3e-f48890e20b13",
+      "qType": "measure"
+    },
+    {
+      "qId": "fe48e808-37b4-4ff7-ab46-a95c1db7e0cc",
+      "qType": "masterobject"
+    },
+    {
+      "qId": "ff259d03-b862-4cdb-9c63-dc79465c8d37",
+      "qType": "map"
+    },
+    {
+      "qId": "ff873d90-cb15-4434-98ed-c2e6a8912368",
+      "qType": "sheet"
+    },
+    {
+      "qId": "ffc216b7-e3cf-4303-b970-ae83151d11c2",
+      "qType": "linechart"
+    },
+    {
+      "qId": "fymFLa",
+      "qType": "text-image"
+    },
+    {
+      "qId": "fzuBN",
+      "qType": "scatterplot"
+    },
+    {
+      "qId": "gHrU",
+      "qType": "text-image"
+    },
+    {
+      "qId": "gNJsusd",
+      "qType": "text-image"
+    },
+    {
+      "qId": "gQeGTx",
+      "qType": "qlik-trellis-container"
+    },
+    {
+      "qId": "gXPhh",
+      "qType": "text-image"
+    },
+    {
+      "qId": "hdVBuq",
+      "qType": "dimension"
+    },
+    {
+      "qId": "jMHHzG",
+      "qType": "map"
+    },
+    {
+      "qId": "jpFfu",
+      "qType": "dimension"
+    },
+    {
+      "qId": "jxyBNj",
+      "qType": "dimension"
+    },
+    {
+      "qId": "jyJPPkS",
+      "qType": "filterpane"
+    },
+    {
+      "qId": "kPQDjDV",
+      "qType": "text-image"
+    },
+    {
+      "qId": "kSePgxj",
+      "qType": "text-image"
+    },
+    {
+      "qId": "kfjTDP",
+      "qType": "text-image"
+    },
+    {
+      "qId": "kmhR",
+      "qType": "container"
+    },
+    {
+      "qId": "kxTySY",
+      "qType": "text-image"
+    },
+    {
+      "qId": "mUaKxBP",
+      "qType": "text-image"
+    },
+    {
+      "qId": "mddp",
+      "qType": "measure"
+    },
+    {
+      "qId": "mfkPpTm",
+      "qType": "dimension"
+    },
+    {
+      "qId": "mvLQDkL",
+      "qType": "text-image"
+    },
+    {
+      "qId": "nCPdTm",
+      "qType": "table"
+    },
+    {
+      "qId": "nQjBxH",
+      "qType": "map"
+    },
+    {
+      "qId": "ngvRs",
+      "qType": "map"
+    },
+    {
+      "qId": "nmrWA",
+      "qType": "text-image"
+    },
+    {
+      "qId": "pGaKS",
+      "qType": "qlik-button-for-navigation"
+    },
+    {
+      "qId": "pPQZqz",
+      "qType": "container"
+    },
+    {
+      "qId": "pjeGgch",
+      "qType": "measure"
+    },
+    {
+      "qId": "pqNtc",
+      "qType": "boxplot"
+    },
+    {
+      "qId": "ptGPqPp",
+      "qType": "measure"
+    },
+    {
+      "qId": "pwFsx",
+      "qType": "text-image"
+    },
+    {
+      "qId": "qEqQb",
+      "qType": "text-image"
+    },
+    {
+      "qId": "qFWaPx",
+      "qType": "text-image"
+    },
+    {
+      "qId": "qYWqRu",
+      "qType": "text-image"
+    },
+    {
+      "qId": "qvJJMte",
+      "qType": "measure"
+    },
+    {
+      "qId": "rgjkGj",
+      "qType": "text-image"
+    },
+    {
+      "qId": "rtpteP",
+      "qType": "measure"
+    },
+    {
+      "qId": "ryNqXRs",
+      "qType": "piechart"
+    },
+    {
+      "qId": "rymtjz",
+      "qType": "text-image"
+    },
+    {
+      "qId": "spGhjB",
+      "qType": "text-image"
+    },
+    {
+      "qId": "spJTsK",
+      "qType": "map"
+    },
+    {
+      "qId": "tDtRTCb",
+      "qType": "text-image"
+    },
+    {
+      "qId": "tRJckp",
+      "qType": "text-image"
+    },
+    {
+      "qId": "tzweBzg",
+      "qType": "text-image"
+    },
+    {
+      "qId": "udrJHaS",
+      "qType": "map"
+    },
+    {
+      "qId": "uhjxLu",
+      "qType": "container"
+    },
+    {
+      "qId": "vjNqzyL",
+      "qType": "text-image"
+    },
+    {
+      "qId": "wKkxj",
+      "qType": "table"
+    },
+    {
+      "qId": "wPsJnb",
+      "qType": "map"
+    },
+    {
+      "qId": "wXzYR",
+      "qType": "text-image"
+    },
+    {
+      "qId": "wZpeebj",
+      "qType": "text-image"
+    },
+    {
+      "qId": "wspVV",
+      "qType": "text-image"
+    },
+    {
+      "qId": "xcmtb",
+      "qType": "text-image"
+    },
+    {
+      "qId": "xjDvHD",
+      "qType": "map"
+    },
+    {
+      "qId": "yWcekg",
+      "qType": "text-image"
+    },
+    {
+      "qId": "yZFr",
+      "qType": "text-image"
+    },
+    {
+      "qId": "ynDWMup",
+      "qType": "qlik-trellis-container"
+    },
+    {
+      "qId": "zAurz",
+      "qType": "text-image"
+    }
+  ]
+}
