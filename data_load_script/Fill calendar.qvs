@@ -1,0 +1,16 @@
+///$tab Fill calendar
+// Filling the calendar with dates inbetween OrderDate
+
+Temp:
+Load
+	min(OrderDate) as minDate,
+	max(OrderDate) as maxDate
+Resident SalesData;
+Let varMinDate = Num(Peek('minDate', 0, 'Temp'));
+Let varMaxDate = Num(Peek('maxDate', 0, 'Temp'));
+DROP Table Temp;
+
+TempCalendar:
+LOAD
+	Date($(varMinDate) + IterNo() - 1) as OrderDate
+AutoGenerate 1 While $(varMinDate) + IterNo() -1 <= $(varMaxDate);

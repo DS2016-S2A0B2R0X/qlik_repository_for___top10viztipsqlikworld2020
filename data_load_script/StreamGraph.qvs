@@ -1,0 +1,46 @@
+///$tab StreamGraph
+// Data from https://barefigur.es/companies/apple/products/
+// https://github.com/kjhealy/apple
+
+streamdata:
+LOAD
+    "Time" as apple_time,
+    Period as apple_period,
+    'iPhone' as apple_product,
+    iPhone as apple_sales
+FROM [lib://apple]
+(txt, utf8, embedded labels, delimiter is ',', msq);
+
+concatenate(streamdata)
+LOAD
+    "Time" as apple_time,
+    Period as apple_period,
+    'iPad' as apple_product,
+    iPad as apple_sales
+FROM [lib://apple]
+(txt, utf8, embedded labels, delimiter is ',', msq);
+
+concatenate(streamdata)
+LOAD
+    "Time" as apple_time,
+    Period as apple_period,
+    'iPod' as apple_product,
+    iPod as apple_sales
+FROM [lib://apple]
+(txt, utf8, embedded labels, delimiter is ',', msq);
+
+concatenate(streamdata)
+LOAD
+    "Time" as apple_time,
+    Period as apple_period,
+    'Mac' as apple_product,
+    Mac as apple_sales
+FROM [lib://apple]
+(txt, utf8, embedded labels, delimiter is ',', msq);
+
+
+concatenate(streamdata)
+load apple_time, apple_period, '_stream_offset' as apple_product resident streamdata;
+
+streamyear:
+load distinct apple_period, if(right(apple_time,2)>90,1900,2000) + right(apple_time,2) as apple_year resident streamdata;

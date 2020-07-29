@@ -1,0 +1,13 @@
+///$tab Scatter Jitter
+ScatterJitter:
+load * inline [
+CategoryName,A,B,Products
+Children´s wear,2,2,Products
+Sportwear,1,2,Products
+Ladies´Footwear,2,1,Products
+Bath Clothes,1,1,Products
+Men´s Clothes,1,1,Products
+Men´s Footwear,1,1,Products
+Babywear,2,1,Products
+Womens wear,2,1,Products
+];

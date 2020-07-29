@@ -1,0 +1,252 @@
+///$tab Gartner
+// Data from http://www.qlikfix.com/2016/02/12/narratives-qlik-make-2016-gartner-magic-quadrant-bi-analytics-platforms/
+// Classes and coloring https://ometisuk.wordpress.com/2016/02/09/qlik-continues-to-lead-while-gartner-get-tough/
+// https://www.gartner.com/
+
+GartnerData:
+load * Inline [
+GartnerYear	Vendor	Completeness of vision	Ability to execute	TotalScore	GartnerType
+2011	arcplan	24	35	840	Niche player
+2011	Bitam	23	36	828	Niche player
+2011	Board International	38	46	1748	Niche player
+2011	Corda Technologies	23	32	736	Niche player
+2011	IBM	80	65	5200	Leader
+2011	Information Builders	51	63	3213	Leader
+2011	Jaspersoft	27	27	729	Niche player
+2011	LogiXML	28	48	1344	Niche player
+2011	Microsoft	65	75	4875	Leader
+2011	MicroStrategy	64	68	4352	Leader
+2011	OpenText (Actuate)	20	29	580	Niche player
+2011	Oracle	64	71	4544	Leader
+2011	Panorama Software	20	22	440	Niche player
+2011	Qlik	57	58	3306	Leader
+2011	Salient Management Company	24	39	936	Niche player
+2011	SAP	72	53	3816	Leader
+2011	SAS	56	61	3416	Leader
+2011	Tableau	34	57	1938	Challenger
+2011	Targit	29	44	1276	Niche player
+2011	TIBCO Software	48	56	2688	Challenger
+2012	Alteryx	24	17	408	Niche player
+2012	arcplan	27	24	648	Niche player
+2012	Board International	37	30	1110	Niche player
+2012	IBM	80	63	5040	Leader
+2012	Information Builders	51	67	3417	Leader
+2012	Jaspersoft	33	10	330	Niche player
+2012	LogiXML	31	48	1488	Niche player
+2012	Microsoft	64	68	4352	Leader
+2012	MicroStrategy	63	74	4662	Leader
+2012	OpenText (Actuate)	23	40	920	Niche player
+2012	Oracle	61	75	4575	Leader
+2012	Panorama Software	29	38	1102	Niche player
+2012	Pentaho	27	13	351	Niche player
+2012	Prognoz	10	36	360	Niche player
+2012	Qlik	54	66	3564	Leader
+2012	Salient Management Company	20	33	660	Niche player
+2012	SAP	71	53	3763	Leader
+2012	SAS	55	58	3190	Leader
+2012	Tableau	41	73	2993	Challenger
+2012	Targit	25	19	475	Niche player
+2012	TIBCO Software	48	70	3360	Challenger
+2013	Alteryx	48	34	1632	Niche player
+2013	arcplan	23	20	460	Niche player
+2013	Birst	37	58	2146	Challenger
+2013	Bitam	21	45	945	Niche player
+2013	Board International	27	40	1080	Niche player
+2013	GoodData	30	22	660	Niche player
+2013	IBM	85	73	6205	Leader
+2013	Information Builders	51	67	3417	Leader
+2013	Jaspersoft	24	33	792	Niche player
+2013	LogiXML	33	60	1980	Challenger
+2013	Microsoft	73	81	5913	Leader
+2013	MicroStrategy	61	68	4148	Leader
+2013	OpenText (Actuate)	39	41	1599	Niche player
+2013	Oracle	62	71	4402	Leader
+2013	Panorama Software	44	39	1716	Niche player
+2013	Pentaho	26	30	780	Niche player
+2013	Prognoz	24	48	1152	Niche player
+2013	Qlik	58	76	4408	Leader
+2013	Salient Management Company	28	37	1036	Niche player
+2013	SAP	78	51	3978	Leader
+2013	SAS	67	71	4757	Leader
+2013	Tableau	52	78	4056	Leader
+2013	Targit	21	23	483	Niche player
+2013	TIBCO Software	57	67	3819	Leader
+2014	Alteryx	59	48	2832	Visionary
+2014	arcplan	23	24	552	Niche player
+2014	Birst	49	60	2940	Challenger
+2014	Bitam	27	45	1215	Niche player
+2014	Board International	31	43	1333	Niche player
+2014	GoodData	42	48	2016	Niche player
+2014	IBM	70	60	4200	Leader
+2014	Infor	17	16	272	Niche player
+2014	Jaspersoft	38	47	1786	Niche player
+2014	Logi Analytics	25	55	1375	Challenger
+2014	Microsoft	63	68	4284	Leader
+2014	MicroStrategy	59	53	3127	Leader
+2014	OpenText (Actuate)	24	34	816	Niche player
+2014	Oracle	61	54	3294	Leader
+2014	Panorama Software	52	43	2236	Visionary
+2014	Pentaho	48	46	2208	Niche player
+2014	Prognoz	40	49	1960	Niche player
+2014	Pyramid Analytics	9	20	180	Niche player
+2014	Qlik	62	70	4340	Leader
+2014	Salient Management Company	22	38	836	Niche player
+2014	SAP	62	59	3658	Leader
+2014	SAS	69	60	4140	Leader
+2014	Tableau	62	71	4402	Leader
+2014	Targit	24	29	696	Niche player
+2014	TIBCO Software	62	58	3596	Leader
+2014	Yellowfin	25	41	1025	Niche player
+2015	Alteryx	53	43	2279	Visionary
+2015	Birst	48	59	2832	Challenger
+2015	Board International	26	37	962	Niche player
+2015	Datawatch	45	37	1665	Niche player
+2015	GoodData	39	45	1755	Niche player
+2015	IBM	69	53	3657	Leader
+2015	Information Builders	53	52	2756	Leader
+2015	Logi Analytics	48	54	2592	Challenger
+2015	Microsoft	53	57	3021	Leader
+2015	MicroStrategy	56	53	2968	Leader
+2015	OpenText (Actuate)	33	22	726	Niche player
+2015	Oracle	56	51	2856	Leader
+2015	Panorama Software	52	34	1768	Visionary
+2015	Pentaho	48	39	1872	Niche player
+2015	Prognoz	44	46	2024	Niche player
+2015	Pyramid Analytics	31	43	1333	Niche player
+2015	Qlik	54	61	3294	Leader
+2015	Salient Management Company	29	29	841	Niche player
+2015	SAP	71	52	3692	Leader
+2015	SAS	72	54	3888	Leader
+2015	Tableau	55	73	4015	Leader
+2015	Targit	31	40	1240	Niche player
+2015	TIBCO Software	55	47	2585	Visionary
+2015	Yellowfin	33	38	1254	Niche player
+2016	Alteryx	65	48	3120	Visionary
+2016	BeyondCore	59	15	885	Visionary
+2016	Birst	45	47	2115	Niche player
+2016	Board International	38	26	988	Niche player
+2016	ClearStory Data	60	26	1560	Visionary
+2016	Datawatch	39	5	195	Niche player
+2016	Domo	38	37	1406	Niche player
+2016	GoodData	38	35	1330	Niche player
+2016	IBM	68	28	1904	Visionary
+2016	Information Builders	37	24	888	Niche player
+2016	Logi Analytics	53	26	1378	Visionary
+2016	Microsoft	81	55	4455	Leader
+2016	MicroStrategy	58	38	2204	Visionary
+2016	Pentaho	53	24	1272	Visionary
+2016	Platfora	42	10	420	Niche player
+2016	Qlik	69	56	3864	Leader
+2016	Salesforce	26	31	806	Niche player
+2016	SAP	62	42	2604	Visionary
+2016	SAS	62	47	2914	Visionary
+2016	Sisense	36	24	864	Niche player
+2016	Tableau	65	59	3835	Leader
+2016	TIBCO Software	52	20	1040	Visionary
+2016	Yellowfin	30	15	450	Niche player
+2017	Alteryx	43	45	1935	Niche player
+2017	Birst	45	37	1665	Niche player
+2017	Board International	37	25	925	Niche player
+2017	ClearStory Data	77	31	2387	Visionary
+2017	Datameer	21	5	105	Niche player
+2017	Domo	32	28	896	Niche player
+2017	IBM	68	39	2652	Visionary
+2017	Information Builders	31	26	806	Niche player
+2017	Logi Analytics	36	25	900	Niche player
+2017	Microsoft	90	73	6570	Leader
+2017	MicroStrategy	52	33	1716	Visionary
+2017	Oracle	31	36	1116	Niche player
+2017	Pentaho	35	8	280	Niche player
+2017	Pyramid Analytics	22	11	242	Niche player
+2017	Qlik	60	54	3240	Leader
+2017	Salesforce	78	36	2808	Visionary
+2017	SAP	62	45	2790	Visionary
+2017	SAS	66	39	2574	Visionary
+2017	Sisense	66	33	2178	Visionary
+2017	Tableau	72	73	5256	Leader
+2017	ThoughtSpot	41	26	1066	Niche player
+2017	TIBCO Software	51	40	2040	Visionary
+2017	Yellowfin	25	23	575	Niche player
+2017	ZoomData	60	12	720	Visionary
+2018	Birst	40	44	1760	Niche player
+2018	Board International	31	24	744	Niche player
+2018	Domo	36	37	1332	Niche player
+2018	IBM	53	29	1537	Visionary
+2018	Information Builders	32	33	1056	Niche player
+2018	Logi Analytics	27	10	270	Niche player
+2018	Looker	34	36	1224	Niche player
+2018	Microsoft	90	73	6570	Leader
+2018	MicroStrategy	43	52	2236	Challenger
+2018	Oracle	40	32	1280	Niche player
+2018	Pyramid Analytics	22	15	330	Niche player
+2018	Qlik	80	56	4480	Leader
+2018	Salesforce	74	43	3182	Visionary
+2018	SAP	60	33	1980	Visionary
+2018	SAS	59	39	2301	Visionary
+2018	Sisense	71	47	3337	Visionary
+2018	Tableau	67	73	4891	Leader
+2018	ThoughtSpot	66	41	2706	Visionary
+2018	TIBCO Software	55	32	1760	Visionary
+2018	Yellowfin	33	19	627	Niche player
+2019	Birst	41	27	1107	Niche player
+2019	Board International	22	36	792	Niche player
+2019	Domo	34	40	1360	Niche player
+2019	GoodData	24	39	936	Niche player
+2019	IBM	49	27	1323	Niche player
+2019	Information Builders	42	28	1176	Niche player
+2019	Logi Analytics	38	29	1102	Niche player
+2019	Looker	36	48	1728	Niche player
+2019	Microsoft	89	75	6675	Leader
+2019	MicroStrategy	42	52	2184	Challenger
+2019	Oracle	42	30	1260	Niche player
+2019	Pyramid Analytics	35	25	875	Niche player
+2019	Qlik	72	53	3816	Leader
+2019	Salesforce	74	49	3626	Visionary
+2019	SAP	57	37	2109	Visionary
+2019	SAS	59	37	2183	Visionary
+2019	Sisense	71	49	3479	Visionary
+2019	Tableau	68	69	4692	Leader
+2019	ThoughtSpot	69	52	3588	Leader
+2019	TIBCO Software	56	48	2688	Visionary
+2019	Yellowfin	42	33	1386	Niche player
+2020	Alibaba Cloud	14	31	434	Niche player
+2020	Birst	42	30	1260	Niche player
+2020	Board International	14	36	504	Niche player
+2020	Domo	28	40	1120	Niche player
+2020	Dundas	10	31	310	Niche player
+2020	IBM	47	40	1880	Niche player
+2020	Information Builders	26	42	1092	Niche player
+2020	Logi Analytics	18	36	648	Niche player
+2020	Looker	32	55	1760	Challenger
+2020	Microsoft	80	82	6560	Leader
+2020	MicroStrategy	45	58	2610	Challenger
+2020	Oracle	57	47	2679	Visionary
+2020	Pyramid Analytics	18	38	684	Niche player
+2020	Qlik	63	53	3339	Leader
+2020	Salesforce	68	45	3060	Visionary
+2020	SAP	59	42	2478	Visionary
+2020	SAS	56	43	2408	Visionary
+2020	Sisense	52	45	2340	Visionary
+2020	Tableau	67	75	5025	Leader
+2020	ThoughtSpot	60	51	3060	Leader
+2020	TIBCO Software	48	56	2688	Challenger
+2020	Yellowfin	54	40	2160	Visionary
+] (delimiter is '\t');
+
+GartnerColors:
+load * Inline [
+GartnerType, GartnerColor
+Leader,'#276E27'
+Challenger,'#46C646'
+Visionary,'#F8981D'
+Niche player,'#F93F17'
+];
+
+GartnerLabels:
+load * Inline [
+GartnerLabel, gx, gy
+Leaders, 75, 98 
+Challengers, 25, 98
+Visionaries, 75, 2
+Niche players, 25, 2
+];

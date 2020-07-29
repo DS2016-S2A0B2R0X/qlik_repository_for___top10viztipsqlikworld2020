@@ -1,0 +1,2 @@
+///$tab Chord
+cat: Load OrderID, CategoryName as CategoryName2, CategoryID as CategoryID2 resident SalesData;

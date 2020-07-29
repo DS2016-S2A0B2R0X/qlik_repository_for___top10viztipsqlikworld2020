@@ -1,0 +1,5 @@
+///$tab Color thresholds
+// Test data for color thresholds
+
+perf: load distinct Country Resident SalesData;
+left Join(perf) load Country, (rand()*20-10)/100 as perf Resident perf;

@@ -1,0 +1,53 @@
+///$tab Coxcomb
+// Hopkins data
+
+conf:
+CrossTable (CDate, Confirmed,4) LOAD * FROM [lib://hopkins - confirmed]
+(txt, codepage is 28591, embedded labels, delimiter is ',', msq);
+
+cases:
+load distinct [Country/Region]&'|'&CDate as Key, sum(Confirmed) as Confirmed Resident conf  
+where match([Country/Region],'China') 
+// where match([Country/Region],'Italy','Iran','Korea, South','Sweden'
+group by [Country/Region]&'|'&CDate;
+drop table conf;
+
+deaths:
+CrossTable (DDate, Deaths,4) LOAD * FROM [lib://hopkins - deaths]
+(txt, codepage is 28591, embedded labels, delimiter is ',', msq);
+
+left join(cases)
+load distinct [Country/Region]&'|'&DDate as Key, sum(Deaths) as Deaths Resident deaths group by [Country/Region]&'|'&DDate;
+drop table deaths;
+
+Left Join(cases)
+load Key, subfield(Key,'|',1) as C_Country, date(subfield(Key,'|',2),'M/D/YY') as CaseDate
+Resident cases;
+
+startdates:
+Mapping Load C_Country, date(min(CaseDate)) as StartDate Resident cases Where Deaths>=10 Group By C_Country;
+
+days:
+Load Key, CaseDate-ApplyMap('startdates', C_Country, null())+1 as Day Resident cases
+Where CaseDate>=ApplyMap('startdates', C_Country, null());
+
+recovered:
+CrossTable (RDate, Recovered,4) LOAD * FROM [lib://hopkins - recovered]
+(txt, codepage is 28591, embedded labels, delimiter is ',', msq);
+
+left join(cases) 
+load distinct [Country/Region]&'|'&RDate as Key, sum(Recovered) as Recovered Resident recovered group by [Country/Region]&'|'&RDate;
+drop table recovered;
+
+Left Join(cases)
+load 
+  Key, subfield(Key,'|',1) as C_Country, date(subfield(Key,'|',2),'M/D/YYYY') as CaseDate, 
+  if(Previous(Confirmed)<Confirmed,Confirmed - Previous(Confirmed)) as NewCases,
+  if(Previous(Deaths)<Deaths,Deaths - Previous(Deaths)) as NewDeaths,
+  if(Previous(Recovered)<Recovered,Recovered - Previous(Recovered)) as NewRecovered
+Resident cases;
+
+left join(cases)
+load Key, (Confirmed - Deaths - Recovered - NewCases) as Active,
+  NewDeaths/Previous(NewDeaths) as DeathsR0
+Resident cases;

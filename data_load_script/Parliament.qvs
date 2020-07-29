@@ -1,0 +1,46 @@
+///$tab Parliament
+// Data from https://en.wikipedia.org/wiki/Chamber_of_Deputies_(Brazil)
+
+[Brazil2018]:
+LOAD
+    b_color,
+    b_link,
+    b_name,
+    b_party,
+    b_nr_of_seats,
+    b_leader,
+    b_position,
+    b_politicalposition
+FROM [lib://Testdata/Brazil2018.xlsx]
+(ooxml, embedded labels, table is Brazil);
+
+LOAD
+    b_politicalorder,
+    b_politicalposition
+FROM [lib://Testdata/Brazil2018.xlsx]
+(ooxml, embedded labels, table is PoliticalOrder);
+
+BrazilPositionOrder:
+load * Inline [
+b_position, b_position_order
+Government,3
+Independent, 1
+Opposition, 2
+];
+
+// Creating a table with one row per seat
+
+Let vNooR = NoOfRows('Brazil2018');
+For i = 0 to (vNooR-1)
+	Let vParty = Peek('b_party', $(i), 'Brazil2018');
+    Let vNrOfSeats = Peek('b_nr_of_seats', $(i), 'Brazil2018');
+    BrazilRepr:
+    load '$(vParty)' as b_party, '$(vParty) - ' & rowno() as b_seat AutoGenerate (1*$(vNrOfSeats));
+Next
+
+// Adding variables for sliders and formulas
+
+let vRows = 6;
+let vOffset = -0.495;
+let vRadius = 7;
+let vSeats = NoOfRows('BrazilRepr');

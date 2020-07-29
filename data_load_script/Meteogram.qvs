@@ -1,0 +1,64 @@
+///$tab Meteogram
+// https://www.yr.no/place/USA/New%20York/New%20York/forecast_hour_by_hour.xml
+// https://jsfiddle.net/gh/get/library/pure/highcharts/highcharts/tree/master/samples/highcharts/demo/combo-meteogram/
+
+yr_cities:
+load * inline [
+metcity, meturl
+London, United_Kingdom/England/London
+New York, USA/New%20York/New%20York
+Tokyo, Japan/Tokyo/Tokyo
+Gothenburg, Sweden/Västra_Götaland/Gothenburg
+];
+
+// variable functions for the input to the bg layers
+let vU = '''https://cdn.jsdelivr.net/gh/YR/weather-symbols@6.0.2/dist/svg/''& only({<meteo_id={$1}>} [symbol/var]) & ''.svg''';
+let vT = 'only({<meteo_id={$1}>} [temperature/value])+2.5';
+let vL = '$1-1';
+let vB = 'only({<meteo_id={$1}>} [temperature/value])+0.5';
+let vR = '$1+1';
+
+Let numRows = NoOfRows('yr_cities');
+For n = 0 to numRows-1
+	let vMeturl = Peek('meturl', $(n), 'yr_cities');
+	let vMetcity = Peek('metcity', $(n), 'yr_cities');
+
+	yr:
+    LOAD
+        recno() as meteo_id, 
+        replace(replace("from",'T',' '),':00:00',':00') as from,
+        "to",
+        "pressure/unit",
+        "pressure/value",
+        "temperature/unit",
+        "temperature/value",
+        "windSpeed/mps",
+        "windSpeed/name",
+        "windDirection/deg",
+        "windDirection/code",
+        "windDirection/name",
+        "precipitation/value",
+        "symbol/number",
+        "symbol/numberEx",
+        "symbol/name",
+        "symbol/var",
+        '$(vMetcity)' as metcity
+        
+    FROM [lib://YR]
+    (URL is [https://www.yr.no/place/$(vMeturl)/forecast_hour_by_hour.xml],
+    XmlSimple, table is [weatherdata/forecast/tabular/time]);
+
+    yr_cred:
+    LOAD
+        "credit/link/text",
+        "credit/link/url",
+        "location/name" as metcity,
+        "location/type",
+        "location/country",
+        "location/location/altitude",
+        "location/location/latitude",
+        "location/location/longitude"
+    FROM [lib://YR]
+    (URL is [https://www.yr.no/place/$(vMeturl)/forecast_hour_by_hour.xml],
+    XmlSimple, table is weatherdata);
+next
